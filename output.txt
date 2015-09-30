@@ -1,0 +1,4450 @@
+account-settings.md account-settings.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Account Settings"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+
+<h3><a name="account-settings"></a>Account Settings</h3>
+
+To navigate to account settings:
+<ol>
+<li>Click on the <b>gear</b> icon in the top right of the Distelli WebUI.</li>
+</ol>
+Here you will find:
+[Billing & Plans](#billing--plans)
+[Credentials](#credentials)
+[API](#api)
+[Teams](#teams)
+[Integrations](#integrations)
+
+<h3><a name="billing-&-plans"></a>Billing & Plans</h3>
+
+Distelli offers several billing plans, including a <b>2 Server</b> free plan. When you are ready to upgrade you can do so from the Billing & Plans link.
+<ol>
+<li>Click <b>Billing & Plans</b>.</li>
+<li>Click the <b>Purchase</b> button for the number of servers you wish to deploy to.</li>
+</ol>
+
+{{% callout-info %}}
+For example, if you choose 50 servers this means you can deploy to 50 concurrent servers.
+{{% /callout-info %}}
+
+<li>Click <b>Add Card</b>.</li>
+</ol>
+
+<h3><a name="credentials"></a>Credentials</h3>
+
+In the credentials section you have access to:
+<h2>Agent Credentials</h2>
+This is your Distelli accesss token and secret key. For usage, see [Distelli distelli.yml Usage](doc:distelli-distelliyml-usage).
+<h2>AWS S3 (credentials)</h2>
+This is where you set your AWS S3 credentials. For usage, see [Using Amazon S3 Bucket](doc:using-amazon-s3-bucket).
+<h2>AWS EC2 (credentials)</h2>
+This is where you set your EC2 credentials. For usage, see [Provisioning EC2 Servers](doc:provisioning-ec2-servers).
+
+<h3><a name="api"></a>API</h3>
+
+This is where you create, activate, deactivate, and delete API tokens. For usage, see [Distelli API](doc:distelli-api).
+
+<h3><a name="teams"></a>Teams</h3>
+
+In this section you can create, edit membership, and delete teams. You can also see what teams you are on. For more information see [Using an Organization Team Account](doc:using-an-organization-team-account).
+
+<h3><a name="integrations"></a>Integrations</h3>
+
+<h2>Github</h2>
+Here you can connect your Github account to your Distelli account. This will allow you to create applications from Github repositories and attach existing applications to repositories. For more information see:
+<ul>
+<li>[Creating an Application from a Repository](doc:creating-an-application-from-a-repository)</li>
+<li>[Connecting a Repository to an Application](doc:connecting-a-repository-to-an-application) </li>
+</ul>
+<h2>Bitbucket</h2>
+Here you can connect your Bitbucket account to your Distelli account. This will allow you to create applications from Bitbucket repositories and attach existing applications to repositories. For more information see:
+<ul>
+<li>[Creating an Application from a Repository](doc:creating-an-application-from-a-repository)</li>
+<li>[Connecting a Repository to an Application](doc:connecting-a-repository-to-an-application) </li>
+</ul>
+<h2>Slack</h2>
+Here you can connect your Slack account to Distelli in preparation to have notifications sent to Slack rooms. For more information see:
+<ul>
+<li>[Notifications](doc:notifications) </li>
+</ul>
+<h2>Hipchat</h2>
+Here you can connect your Hipchat account to Distelli in preparation to have notifications sent to Hipchat rooms. For more information see:
+<ul>
+<li>[Notifications](doc:notifications) </li>
+</ul>
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index).
+account-settings.md~ account-settings.md~.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Account Settings"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+
+<h3><a name="account-settings"></a>Account Settings</h3>
+
+To navigate to ```account``` settings:
+<ol>
+<li>Click on the <b>gear</b> icon in the top right of the Distelli WebUI.</li>
+</ol>
+Here you will find:
+[Billing & Plans](#billing--plans)
+[Credentials](#credentials)
+[API](#api)
+[Teams](#teams)
+[Integrations](#integrations)
+
+<h3><a name="billing-&-plans"></a>Billing & Plans</h3>
+
+Distelli offers several billing plans, including a <b>2 Server</b> free plan. When you are ready to upgrade you can do so from the Billing & Plans link.
+<ol>
+<li>Click <b>Billing & Plans</b>.</li>
+<li>Click the <b>Purchase</b> button for the number of servers you wish to deploy to.</li>
+</ol>
+
+{{% callout-info %}}
+For example, if you choose 50 servers this means you can deploy to 50 concurrent servers.
+{{% /callout-info %}}
+
+<li>Click <b>Add Card</b>.</li>
+</ol>
+
+<h3><a name="credentials"></a>Credentials</h3>
+
+In the credentials section you have access to:
+<h2>Agent Credentials</h2>
+This is your Distelli accesss token and secret key. For usage, see [Distelli distelli.yml Usage](doc:distelli-distelliyml-usage).
+<h2>AWS S3 (credentials)</h2>
+This is where you set your AWS S3 credentials. For usage, see [Using Amazon S3 Bucket](doc:using-amazon-s3-bucket).
+<h2>AWS EC2 (credentials)</h2>
+This is where you set your EC2 credentials. For usage, see [Provisioning EC2 Servers](doc:provisioning-ec2-servers).
+
+<h3><a name="api"></a>API</h3>
+
+This is where you create, activate, deactivate, and delete API tokens. For usage, see [Distelli API](doc:distelli-api).
+
+<h3><a name="teams"></a>Teams</h3>
+
+In this section you can create, edit membership, and delete teams. You can also see what teams you are on. For more information see [Using an Organization Team Account](doc:using-an-organization-team-account).
+
+<h3><a name="integrations"></a>Integrations</h3>
+
+<h2>Github</h2>
+Here you can connect your Github account to your Distelli account. This will allow you to create applications from Github repositories and attach existing applications to repositories. For more information see:
+<ul>
+<li>[Creating an Application from a Repository](doc:creating-an-application-from-a-repository)</li>
+<li>[Connecting a Repository to an Application](doc:connecting-a-repository-to-an-application) </li>
+</ul>
+<h2>Bitbucket</h2>
+Here you can connect your Bitbucket account to your Distelli account. This will allow you to create applications from Bitbucket repositories and attach existing applications to repositories. For more information see:
+<ul>
+<li>[Creating an Application from a Repository](doc:creating-an-application-from-a-repository)</li>
+<li>[Connecting a Repository to an Application](doc:connecting-a-repository-to-an-application) </li>
+</ul>
+<h2>Slack</h2>
+Here you can connect your Slack account to Distelli in preparation to have notifications sent to Slack rooms. For more information see:
+<ul>
+<li>[Notifications](doc:notifications) </li>
+</ul>
+<h2>Hipchat</h2>
+Here you can connect your Hipchat account to Distelli in preparation to have notifications sent to Hipchat rooms. For more information see:
+<ul>
+<li>[Notifications](doc:notifications) </li>
+</ul>
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index).
+accounts-faq.md accounts-faq.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Accounts FAQ"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+
+<h3><a name="accounts-faq"></a>Accounts FAQ</h3>
+
+Distelli Account - Frequently Asked Questions.
+
+<h3><a name="what-is-a-distelli-account?"></a>What is a Distelli Account?</h3>
+
+See [Accounts](doc:accounts).
+
+<h3><a name="how-do-i-sign-up-for-distelli?"></a>How do I sign up for Distelli?</h3>
+
+See [Creating an Account](doc:creating-an-account).
+
+<h3><a name="how-do-i-sign-in-to-distelli?"></a>How do I sign in to Distelli?</h3>
+
+See [Signing in to Distelli](doc:signing-in-to-distelli).
+
+<h3><a name="what-do-i-do-if-i-have-lost/forgotten-my-password?"></a>What do I do if I have lost/forgotten my password?</h3>
+
+See [Password Recovery](doc:password-recovery).
+
+<h3><a name="how-do-i-update-my-distelli-profile-information?"></a>How do I update my Distelli Profile Information?</h3>
+
+See [Editing your Profile](doc:editing-your-profile).
+
+<h3><a name="how-do-i-change-my-email?"></a>How do I change my email?</h3>
+
+We can assist you with this, please contact Distelli [support](http://www.distelli.com/support).
+
+<h3><a name="how-do-i-change-my-username?"></a>How do I change my username?</h3>
+
+At this time, there is no way to change your username.
+
+<h3><a name="how-do-i-delete-my-account?"></a>How do I delete my account?</h3>
+
+We can assist you with this, please contact Distelli [support](http://www.distelli.com/support).
+
+<h3><a name="how-do-i-setup-my-profile-picture?"></a>How do I setup my profile picture?</h3>
+
+[Adding an Avatar to your Profile](doc:adding-a-gravatar-to-your-profile).
+
+<h3><a name="i-received-an-email-that-i-created-a-new-account,-but-i-didn't?"></a>I received an email that I created a new account, but I didn't?</h3>
+
+Please forward the email to Distelli [support](http://www.distelli.com/support), we will investigate.
+
+<h3><a name="what-if-an-account-is-using-my-registered-trademark?"></a>What if an account is using my registered trademark?</h3>
+
+Please contact us at [support](http://www.distelli.com/support).
+
+<h3><a name="what-is-the-difference-between-signing-in-and-signing-up?"></a>What is the difference between signing in and signing up?</h3>
+
+<h1>Signing Up</h1>
+If you don't have a Distelli account you will Sign Up for one. It is easy and quick to do so. See How do I sign up for Distelli.
+<h1>Signing In</h1>
+Once you have a Distelli account you will simply Sign In to your Distelli Account with your email and password. See How do I sign in to Distelli.
+
+<h3><a name="what-is-the-minimum-password-strength?"></a>What is the minimum password strength?</h3>
+
+Currently Distelli has no password strength requirements, but we always suggest you use a strong password.
+
+<h3><a name="what-is-an-organization-account?"></a>What is an organization account?</h3>
+
+See [Using an Organization Team Account](doc:using-an-organization-team-account).
+
+<h3><a name="how-do-i-use-an-organization-account?"></a>How do I use an organization account?</h3>
+
+See [Using an Organization Team Account](doc:using-an-organization-team-account).
+
+<h3><a name="how-do-i-change-my-password?"></a>How do I change my password?</h3>
+
+There currently is no method to change your password.
+
+<h3><a name="how-do-i-make-a-strong-password?"></a>How do I make a strong password?</h3>
+
+Ensure your password:
+<i> Is at least 8 characters long
+<i> Does not contain a name (user, company, first/last)
+<i> Does not contain a complete word
+<i> Differs from previous password
+<i> Contains characters from each of the following:
+<i> Uppercase letters (ABC...)
+<i> Lowercase letters (abc...)
+<i> Numbers (0123...)
+<i> Symbols (!@#$%^& ...)
+
+<h3><a name="how-do-i-integrate-distelli-with-github?"></a>How do I integrate Distelli with github?</h3>
+
+See [Integrating with a Repository](doc:integrating-with-a-repository).
+
+<h3><a name="how-do-i-integrate-distelli-with-bitbucket?"></a>How do I integrate Distelli with bitbucket?</h3>
+
+See [Integrating with a Repository](doc:integrating-with-a-repository).
+
+<h3><a name="how-do-i-integrate-distelli-with-slack?"></a>How do I integrate Distelli with Slack?</h3>
+
+See [Integrating with Slack](doc:integrating-with-slack).
+
+<h3><a name="how-do-i-integrate-distelli-with-hipchat?"></a>How do I integrate Distelli with Hipchat?</h3>
+
+See [Integrating with HipChat](doc:integrating-with-hipchat).
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index).
+accounts.md accounts.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "ACCOUNTS"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+A Distelli Account gives you access to the Distelli platform, website, and services. You must create a Distelli Account to use the Distelli Service.
+
+<h3><a name="accounts"></a>Accounts</h3>
+
+[Creating an Account](doc:creating-an-account1)
+[Signing in to Distelli](doc:signing-in-to-distelli)
+[Editing your Profile](doc:editing-your-profile)
+[Finding Your Distelli Username](doc:finding-your-distelli-username)
+[Password Recovery](doc:password-recovery)
+[Adding an Avatar to your Profile](doc:adding-a-gravatar-to-your-profile)
+[Account Settings](doc:account-settings)
+[Integrating with a Repository](doc:integrating-with-a-repository)
+[Accounts FAQ](doc:accounts-faq)
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+adding-a-gravatar-to-your-profile.md adding-a-gravatar-to-your-profile.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Adding an Avatar to your Profile"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+Distelli profiles can be configured to use your Gravatar Avatar.
+The profile Avatar is rendered in the top right of the Distelli WebUI and the default looks like this.
+
+<img src="/assets/images/webui_default_avatar.png">
+
+<ol>
+<li>First you must setup an avatar on Gravatar. Follow this link [https://en.gravatar.com/](https://en.gravatar.com/) and setup your Gravatar account. It is free.</li>
+<li>Sign in to the Distelli WebUI at [https://www.distelli.com/login](https://www.distelli.com/login)</li>
+<li>While signed in to the Distelli WebUI, click the word <b>Owner</b> in the top right. If you are currently in a team view, click the team name.</li>
+</ol>
+
+<img src="/assets/images/webui_jane_doe_team.png">
+
+You will find yourself at the Profile Settings page
+
+<img src="/assets/images/webui_profile_settings.png">
+
+<li>Enter your <b>Gravatar Email</b>.</li>
+<li>Click <b>Save Changes</b> button.</li>
+</ol>
+Your Distelli profile will now use your Gravatar Avatar.
+
+<img src="/assets/images/webui_gravatar_avatar.png">
+
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+adding-a-new-server.md adding-a-new-server.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Adding a New Server"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+Adding servers to Distelli, can be accomplished via several methods.
+<ul>
+<li>Installing the Distelli Agent on the server.</li>
+<li>Using the distelli.yml to automate the Distelli Agent install.</li>
+<li>Using the new server workflow.</li>
+<li>Using Distelli to provision EC2 servers.</li>
+</ul>
+This document documents using the <b>new server workflow</b> for adding servers to Distelli. For more information on other methods see:
+<ul>
+<li>[Distelli Agent](doc:distelli-agent)</li>
+<li>[Distelli distelli.yml Usage](doc:distelli-distelliyml-usage) </li>
+<li>[Provisioning EC2 Servers](doc:provisioning-ec2-servers) </li>
+</ul>
+
+<h3><a name="new-server-workflow"></a>New Server Workflow</h3>
+
+To begin the new server workflow:
+<ol>
+<li>Click the <b>Servers</b> link at the top of the Distelli WebUI.</li>
+<li>Click the <b>New Server</b> button at the top right.</li>
+</ol>
+
+<h3><a name="1.-add-an-existing-server-or-launch-a-new-one"></a>1. Add an existing server or launch a new one</h3>
+
+<ol>
+<li>Click the <b>Add Existing Server</b> button.</li>
+</ol>
+
+<h3><a name="2.-install-the-distelli-agent"></a>2. Install the Distelli Agent</h3>
+
+
+{{% callout-warning %}}
+You must login to your server and install the agent.
+{{% /callout-warning %}}
+
+MAC and Linux use the wget or curl. Windows, copy and paste the powershell snippet in a command (cmd) prompt.
+<li>After installing the agent, in the Distelli WebUI click the <b>Install Complete</b> button.</li>
+</ol>
+
+<h3><a name="3.-confirm-server-installation"></a>3. Confirm server installation</h3>
+
+<ol>
+<li>Click the <b>Refresh Server List</b> button to refresh the list.</li>
+<li>When you see the server that you installed the Distelli agent on, click the server.</li>
+</ol>
+
+<h3><a name="4.-add-server-to-environment"></a>4. Add server to environment</h3>
+
+<ol>
+<li>Select the environment(s) you wish the server to join.</li>
+<li>Click <b>Add Environments</b>.</li>
+</ol>
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index).
+adding-servers-to-an-environment.md adding-servers-to-an-environment.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Adding Servers to an Environment"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+Before you can deploy to a server the server must first have the Distelli agent installed and added to an application environment.
+
+<h3><a name="add-a-server-to-an-environment"></a>Add a Server to an Environment</h3>
+
+To add a server to an environment the server must first have the [Distelli Agent](doc:distelli-agent) installed on it. Also see [Installing the Agent](doc:installing-the-agent)
+To add a server to an environment:
+<ol>
+<li>First, have a server. If you don't have a server, you could use a virtual server. [Building Virtual Servers](doc:building-virtual-servers) </li>
+<li>The Distelli agent will need to be installed on the server. [Distelli Agent](doc:distelli-agent) </li>
+<li>Navigate to the environment you want to add the server to. [Navigating to an Environment](doc:navigating-to-an-environment) </li>
+<li>Click the <b>Add Servers</b> link.</li>
+</ol>
+In the WebUI, below, you should see the server you installed the [Distelli Agent](doc:installing-the-agent) on in step 2 above.
+<li>Click the <b>Add Server</b> check box to the right of the server.</li>
+<li>Click the <b>Add Selected Servers</b> link.</li>
+</ol>
+You now have a Server in your application environment.
+
+<h3><a name="adding-servers-with-/etc/distelli.yml"></a>Adding Servers with /etc/distelli.yml</h3>
+
+You can also <b>automate</b> the Distelli agent install, including; logging the agent into a specific Distelli account, automatically joining environment(s), and initiating an automatic initial deploy.
+For more information see [Distelli distelli.yml Usage](doc:distelli-distelliyml-usage).
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+add-members-to-a-team.md add-members-to-a-team.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Adding Members to a Team"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+You can add other Distelli users to your team as team members. This will allow the team member access to the applications, environments, and servers in your account. They will have the same permissions as you do.
+
+<h3><a name="add-a-member-to-a-team"></a>Add a Member to a Team</h3>
+
+
+{{% callout-warning %}}
+To add a user to your team you must know their Distelli account <b>username</b>.
+{{% /callout-warning %}}
+
+This will take you to your settings page.
+<li>Click the <b>Teams</b> link on the left.</li>
+</ol>
+This will take you to the list of your existing Teams. If you need to create a team see [Creating a Team](doc:creating-a-team).
+<li>For the team you want to add members to, click the <b>Edit</b> link on the right.</li>
+<li>Click the <b>Add Member</b> button.</li>
+<li>Enter the <b>Distelli username</b> for the member you want to add.</li>
+<li>Click <b>Add Member</b>.</li>
+</ol>
+You will see the new member now, above, in the team member list.
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+add-servers-to-a-team-account.md add-servers-to-a-team-account.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Adding Servers to a Team Account"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+You can add servers to team accounts you are a member of.
+
+<h3><a name="add-servers-to-a-team"></a>Add Servers to a Team</h3>
+
+To add a server to a team account you must install the Distelli agent on that server. When you enter your Distelli account email and password, and you are a member of a Distelli team, you will be prompted whether to add the server to your account or a team account.
+
+{{% callout-warning %}}
+This assumes your Distelli account has been added to a team.
+{{% /callout-warning %}}
+
+{
+"type": "danger",
+"body": "When installing the Distelli agent, you will be prompted for your Distelli account email and password. You will then be asked whether to add this server to your account or a team account."
+}
+[/block]
+An example Distelli agent installation session with teams.
+
+{{< callout-code >}}
+# wget -qO- https://www.distelli.com/download/agent/install | sh\nThis script requires superuser privileges to install packages\nPlease enter your password at the sudo prompt\n\n Installing Distelli Toolkit 3.17 for architecture 'Linux-x86_64'...\n Downloading https://s3.amazonaws.com/doanload.distelli.com/dtk.Linux-x86_65/dtk.Linux-x86_64-3.17.gz\nSuccessfully installed to /usr/local/bin/dtk\nDistelli Email: <b>jdoe@distelli.com**\n Password:\n 1: User: jdoe\n 2: Team: janedoe/jane_doe_team\n 3: Team: briandoe/team_alpha\nTeam [3]: <b>3**\n\nStarting upstart daemon with name: dtk-supervise-cc1234c06f7abcdabcd123412342891234567890
+{{< /callout-code >}}
+
+
+<h3><a name="add-servers-to-a-team-using-distelli.yml"></a>Add Servers to a Team using distelli.yml</h3>
+
+By placing a distelli.yml file in /etc directory before installing the Distelli agent, you can automate the agent connecting to a team and joining application environments.
+For instructions on doing this see [Distelli distelli.yml Usage](doc:distelli-distelliyml-usage).
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+application-settings.md application-settings.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Application Settings"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+In the application settings you can:
+<ul>
+<li>Set the application description.</li>
+<li>Connect and disconnect a repository. See [Connecting a Repository to an Application](doc:connecting-a-repository-to-an-application).</li>
+<li>Set Notification options. See [Notifications](doc:notifications) for more information.</li>
+</ul>
+If a repository is integrated you can:
+<ul>
+<li>Set build options.</li>
+<ul>
+<li>[ ] Automatically build this branch when a new commit is pushed. See [Enabling Auto Build](doc:enabling-auto-build).</li>
+<li>[ ] Build on my own hardware. See [Using your own Build Server](doc:using-your-own-build-server).</li>
+<li>Specify build environment variables. See [Specifying Build Variables](doc:specifying-build-variables).</li>
+</ul>
+<li>Set deploy options.</li>
+<ul>
+<li>[ ] Automatically deploy this branch when a build succeeds. See [Enabling Auto Deploy](doc:enabling-auto-deploy).</li>
+</ul>
+<li>Delete the application. See [Deleting an Application](doc:deleting-an-application).</li>
+</ul>
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+applications-faq.md applications-faq.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Applications FAQ"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+
+<h3><a name="what-is-an-application?"></a>What is an application?</h3>
+
+See [Applications](doc:applications).
+
+<h3><a name="how-do-i-create-a-new-application?"></a>How do I create a new application?</h3>
+
+See [Creating an Application](creating-an-application-1).
+
+<h3><a name="how-do-i-create-a-new-application-from-an-existing-application?"></a>How do I create a new application from an existing application?</h3>
+
+At this time there is no way to copy an application in Distelli.
+
+<h3><a name="how-do-i-create-a-new-application-from-my-existing-repository?"></a>How do I create a new application from my existing repository?</h3>
+
+See [Creating an Application from a Repository](creating-an-application-from-a-repository).
+
+<h3><a name="how-do-i-rename-an-application?"></a>How do I rename an application?</h3>
+
+At this time there is no way to rename an application.
+
+<h3><a name="what-is-an-application-bundle?"></a>What is an application bundle?</h3>
+
+See [Distelli Bundle](doc:distelli-bundle).
+
+<h3><a name="what-is-an-application-push?"></a>What is an application push?</h3>
+
+See [Pushing an Application Release](doc:pushing-an-application-release).
+
+<h3><a name="what-is-an-application-environment?"></a>What is an application environment?</h3>
+
+See [Environments](doc:environments).
+
+<h3><a name="what-is-an-application-release?"></a>What is an application release?</h3>
+
+See [Releases](doc:releases).
+
+<h3><a name="what-is-an-application-deployment?"></a>What is an application deployment?</h3>
+
+See [Deployment Types](doc:deployment-types).
+
+<h3><a name="what-are-the-application-settings?"></a>What are the application settings?</h3>
+
+See [Application Settings](doc:application-settings).
+
+<h3><a name="where-does-the-application-description-show-up?"></a>Where does the application description show up?</h3>
+
+See [Application Settings](doc:application-settings).
+
+<h3><a name="how-do-i-bundle-my-application?"></a>How do I bundle my application?</h3>
+
+See [Distelli Bundle](doc:distelli-bundle-1).
+
+<h3><a name="how-do-i-push-my-application"></a>How do I push my application</h3>
+
+See [Pushing an Application Release](doc:pushing-an-application-release).
+
+<h3><a name="how-do-i-deploy-my-application?"></a>How do I deploy my application?</h3>
+
+See [Deploying an Application](doc:deploying-an-application-1).
+
+<h3><a name="how-do-i-list-my-applications?"></a>how do I list my applications?</h3>
+
+See [Distelli CLI](doc:distelli-cli#list).
+See [Navigating to an Application](doc:navigating-to-an-application).
+
+<h3><a name="how-do-i-delete-my-application?"></a>How do I delete my application?</h3>
+
+See [Deleting an Application](doc:deleting-an-application).
+
+<h3><a name="how-do-i-change-my-application-name?"></a>How do I change my application name?</h3>
+
+At this time you cannot change an application name.
+
+<h3><a name="how-do-i-change-my-application-description?"></a>How do I change my application description?</h3>
+
+See [Application Settings](doc:application-settings).
+
+<h3><a name="how-do-i-know-which-servers-my-application-is-deployed-to?"></a>How do I know which servers my application is deployed to?</h3>
+
+See [Viewing Application Deployments](doc:viewing-application-deployments).
+
+<h3><a name="how-do-i-stop-my-application?"></a>How do I stop my application?</h3>
+
+See [Terminating an Application](doc:terminating-an-application-1).
+
+<h3><a name="how-do-i-restart-my-application?"></a>How do I restart my application?</h3>
+
+See [Restarting an Application](doc:restarting-an-application).
+
+<h3><a name="how-do-i-terminate-my-application?"></a>How do I terminate my application?</h3>
+
+See [Terminating an Application](doc:terminating-an-application)
+
+<h3><a name="how-do-i-see-when-an-application-release-was-pushed?"></a>How do I see when an application release was pushed?</h3>
+
+
+<h3><a name="how-do-i-see-who-pushed-an-application-release-to-distelli?"></a>How do I see who pushed an application release to Distelli?</h3>
+
+
+<h3><a name="how-do-i-see-when-an-application-release-was-deployed?"></a>How do I see when an application release was deployed?</h3>
+
+
+<h3><a name="how-do-i-see-who-deployed-an-application?"></a>How do I see who deployed an application?</h3>
+
+
+<h3><a name="how-do-i-see-if-my-application-is-running?"></a>How do I see if my application is running?</h3>
+
+
+<h3><a name="why-does-my-application-restart-when-i-manually-terminate-it?"></a>Why does my application restart when I manually terminate it?</h3>
+
+See [Distelli Manifest](doc:distelli-manifest#exec).
+
+<h3><a name="how-do-i-share-an-application-with-my-team?"></a>How do I share an application with my team?</h3>
+
+See [Creating Applications in a Team Account](doc:creating-applications-in-a-team-account).
+
+<h3><a name="how-do-i-know-what-repository-my-app-is-built-against?"></a>How do I know what repository my app is built against?</h3>
+
+
+<h3><a name="how-do-i-configure-my-deploy-steps?"></a>How do I configure my deploy steps?</h3>
+
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+applications.md applications.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "APPLICATIONS"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+In Distelli, an application is code/software that you want to build and/or deploy. Your application, in Distelli, may have one or more of the following:
+- Builds
+- Deployments
+- Environments
+- Releases
+- Settings
+
+<h3><a name="applications"></a>Applications</h3>
+
+[Creating an Application](doc:creating-an-application-1)
+[Creating an Application from a Repository](doc:creating-an-application-from-a-repository)
+[Navigating to an Application](doc:navigating-to-an-application)
+[Pushing an Application Release](doc:pushing-an-application-release)
+[Viewing Application Release](doc:viewing-application-release)
+[Deploying an Application](doc:deploying-an-application-1)
+[Restarting an Application](doc:restarting-an-application)
+[Terminating an Application](doc:terminating-an-application-1)
+[Viewing Application Deployments](doc:viewing-application-deployments)
+[Deleting an Application](doc:deleting-an-application)
+[Connecting a Repository to an Application](doc:connecting-a-repository-to-an-application)
+[Viewing an Applications Repository](doc:viewing-an-applications-repository)
+[Application Settings](doc:application-settings)
+[Applications FAQ](doc:applications-faq)
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation](doc:product-documentation-index)
+billing-faq.md billing-faq.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Billing FAQ"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+billing.md billing.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "BILLING"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+
+<h3><a name="billing"></a>Billing</h3>
+
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+building-with-distelli-manifestyml-prerelease.md building-with-distelli-manifestyml-prerelease.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Building with distelli-manifest.yml PreRelease"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+You can specify your build instructions in the distelli-manifest.yml file in the PreRelease section. For more information on the distelli-manifest.yml see [Distelli Manifest](doc:distelli-manifest).
+
+<h3><a name="customizing-the-build"></a>Customizing the Build</h3>
+
+A build is typically made up of the following steps:
+<ol>
+<li>[Install](#Install): Install any dependencies required for the next 2 steps.</li>
+<li>[Build](#build): Run the build script.</li>
+<li>[Test](#test): Run tests.</li>
+</ol>
+Here is an example PreRelease section of a distelli-manifest.yml:
+
+{{< callout-code >}}
+PreRelease:\n - echo \---Begin PreRelease---\\n \n - echo \---Install dependencies---\\n - sudo apt-get -y update\n - sudo apt-get -y install nodejs\n - sudo apt-get -y install npm\n \n - echo \---Build application---\\n - sudo npm install\n \n - echo \---Run tests---\\n - npm test
+{{< /callout-code >}}
+
+{
+"type": "basic",
+"title": "Install"
+}
+[/block]
+There are no default install steps. They are customizable. Enter the commands, specific to the operating system being built on, to install any dependencies.
+For more information see [Installing Dependencies](doc:installing-dependencies).
+
+<h3><a name="build"></a>Build</h3>
+
+There are no default build steps. They are customizable. Enter the commands specific the application being built, compiled, linked, etc...
+
+<h3><a name="test"></a>Test</h3>
+
+There are no default test steps. They are customizable. Enter the commands to initialize the tests.
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+building-with-travis-travisyml.md building-with-travis-travisyml.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Building with Travis .travis.yml"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+Distelli supports building your software with build instructions specified in .travis.yml format. If you are using a .travis.yml you do not need to specify build instructions in the distelli-manifest.yml.
+For more information on using the .travis.yml see:
+<ul>
+<li><a href="http://docs.travis-ci.com/user/for-beginners/" target="_blank">http://docs.travis-ci.com/user/for-beginners/</a>.</li>
+<li><a href="http://docs.travis-ci.com/user/getting-started/" target="_blank">http://docs.travis-ci.com/user/getting-started/</a>.</li>
+</ul>
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+builds-faq.md builds-faq.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Builds FAQ"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+
+<h3><a name="builds-faq"></a>Builds FAQ</h3>
+
+Distelli Builds - Frequent Asked Questions.
+
+<h3><a name="how-do-i-trigger-a-build?"></a>How do I trigger a build?</h3>
+
+See [Connecting a Repository to an Application](doc:connecting-a-repository-to-an-application).
+
+<h3><a name="how-do-i-start-a-build?"></a>How do I start a build?</h3>
+
+See [Starting a Build](doc:starting-a-build).
+
+<h3><a name="how-do-i-see-a-release-that-was-created-from-a-build?"></a>How do I see a release that was created from a build?</h3>
+
+See [Viewing Builds](doc:viewing-builds).
+
+<h3><a name="how-do-i-restart-/-rebuild-from-an-existing-build?"></a>How do I restart / rebuild from an existing build?</h3>
+
+See [Rebuilding a Build](doc:rebuilding-a-build).
+
+<h3><a name="how-do-i-cancel-/-abort-a-build-in-progress?"></a>How do I cancel / abort a build in progress?</h3>
+
+See [Cancelling a Build](doc:cancelling-a-build).
+
+<h3><a name="how-do-i-see-the-build-that-was-triggered-by-an-auto-build?"></a>How do I see the build that was triggered by an auto build?</h3>
+
+From the Builds list page. See [Viewing Builds](doc:viewing-builds).
+
+<h3><a name="what-does-auto-build-mean?"></a>What does auto build mean?</h3>
+
+See [Overview of CI/CD with Distelli](doc:overview-of-cicd-with-distelli).
+
+<h3><a name="how-do-i-enable-auto-build?"></a>How do I enable auto build?</h3>
+
+See [Enabling Auto Build](doc:enabling-auto-build).
+
+<h3><a name="how-do-i-disable-auto-build?"></a>How do I disable auto build?</h3>
+
+See [Enabling Auto Build](doc:enabling-auto-build).
+
+<h3><a name="how-do-i-set-distelli-specific-build-variables?"></a>How do I set Distelli specific build variables?</h3>
+
+See [Specifying Build Variables](doc:specifying-build-variables).
+Also see [Environment Variables](doc:environment-variables#Distelli-specific-build-variables).
+
+<h3><a name="how-do-i-set-build-environment-variables?"></a>How do I set build environment variables?</h3>
+
+See [Specifying Build Variables](doc:specifying-build-variables).
+
+<h3><a name="how-do-i-know-what-repository-my-app-is-built-against?"></a>How do I know what repository my app is built against?</h3>
+
+See [Viewing an Applications Repository](doc:viewing-an-applications-repository).
+
+<h3><a name="how-can-i-see-what-repository-branch-was-built?"></a>How can I see what repository branch was built?</h3>
+
+See [Viewing Builds](doc:viewing-builds)
+
+<h3><a name="how-can-i-see-the-repository-changeset-that-was-built?"></a>How can I see the repository changeset that was built?</h3>
+
+See [Viewing Builds](doc:viewing-builds).
+
+<h3><a name="how-do-i-configure-my-build-steps?"></a>How do I configure my build steps?</h3>
+
+In the [PreRelease](doc:distelli-manifest#prerelease) section of the Distelli manifest.
+
+{{% callout-info %}}
+Distelli build servers can build based on instructions in a Travis CI file .travis.yml.
+{{% /callout-info %}}
+
+{
+"type": "basic",
+"title": "How do I specify my builds steps in the Distelli manifest?"
+}
+[/block]
+See [Building with distelli-manifest.yml PreRelease](doc:building-with-distelli-manifestyml-prerelease).
+
+<h3><a name="how-do-i-specify-my-build-steps-using-.travis.yml?"></a>How do I specify my build steps using .travis.yml?</h3>
+
+See [Building with Travis .travis.yml](doc:building-with-travis-travisyml).
+
+<h3><a name="how-do-i-download-a-build-log?"></a>How do I download a build log?</h3>
+
+See [Downloading a Build Log](doc:downloading-a-build-log).
+
+<h3><a name="how-do-i-provide-a-link-to-a-build-log?"></a>How do I provide a link to a build log?</h3>
+
+See [Linking to a Build Log Entry](doc:linking-to-a-build-log-entry).
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+builds.md builds.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "BUILDS"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+The build process is one of the first steps in continuous integration and continuous deployment. Distelli can build applications from your repositories and auto build them either using Distelli build servers or your build servers.
+To get started with auto builds see:
+<ul>
+<li>[Enabling Auto Build](doc:enabling-auto-build).</li>
+<li>[Creating an Application from a Repository](doc:creating-an-application-from-a-repository).</li>
+<li>[Connecting a Repository to an Application](doc:connecting-a-repository-to-an-application).</li>
+</ul>
+
+<h3><a name="builds"></a>Builds</h3>
+
+[Starting a Build](doc:starting-a-build)
+[Enabling Auto Build](doc:enabling-auto-build)
+[Viewing Builds](doc:viewing-builds)
+[Specifying Build Variables](doc:specifying-build-variables)
+[Rebuilding a Build](doc:rebuilding-a-build)
+[Cancelling a Build](doc:cancelling-a-build)
+[Downloading a Build Log](doc:downloading-a-build-log)
+[Linking to a Build Log Entry](doc:linking-to-a-build-log-entry)
+[Building with distelli-manifest.yml PreRelease](doc:building-with-distelli-manifestyml-prerelease)
+[Building with Travis .travis.yml](doc:building-with-travis-travisyml)
+[Builds FAQ](doc:builds-faq)
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+cancelling-a-build.md cancelling-a-build.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Cancelling a Build"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+You can cancel a build.
+
+<h3><a name="cancel-a-build"></a>Cancel a Build</h3>
+
+You can cancel / abort a build from the build list page. To do so:
+<ol>
+<li>Click the <b>Builds</b> link at the top of the Distelli WebUI.</li>
+<li>Navigate through the list to the build you wish to cancel.</li>
+<li>Click the <b>X</b> on the right in the build panel.</li>
+</ol>
+
+<img src="/assets/images/Untitled 1.png">
+
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+cancelling-a-deploy.md cancelling-a-deploy.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Cancelling a Deploy"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+Add note that
+---
+As a side-note, the abort deploy button simply prevents "waiting" servers from beginning a deployment. This is only useful when doing a staggered deployment with multiple servers and you abort before the other servers begin their deployments.
+connecting-a-branch-to-an-application.md connecting-a-branch-to-an-application.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Connecting a Branch to an Application"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+Applications in Distelli that are attached to a repository can build and deploy based on a specific repository branch.
+
+<h3><a name="connect-a-branch-to-an-application"></a>Connect a Branch to an Application</h3>
+
+These instructions assume the application is already integrated with a repository. If not see:
+<ul>
+<li>[Creating an Application from a Repository](doc:creating-an-application-from-a-repository) </li>
+<li>[Integrating with a Repository](doc:integrating-with-a-repository) </li>
+</ul>
+<ol>
+<li>Navigate to the application [Navigating to an Application](doc:navigating-to-an-application).</li>
+<li>Click <b>Settings</b>.</li>
+<li>Expand the <b>Repository</b> section by clicking the (+).</li>
+<li>Click the <b>Add Branches</b> button.</li>
+<li>Select the Branch or Branches you wish to add.</li>
+<li>Click the <b>Add</b> button.</li>
+</ol>
+You have connected your branch(es).
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+connecting-a-repository-to-an-application.md connecting-a-repository-to-an-application.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Connecting a Repository to an Application"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+You can add a repository to an existing application. This will provide enhanced functionality for your application, including:
+<ul>
+<li>Auto build on repository check-in.</li>
+<li>Auto deploy on successful build.</li>
+</ul>
+Repositories can be added to an application:
+<ul>
+<li>[From the application settings](#add-a-repository-to-an-application).</li>
+<li>On application creation. See [Creating an Application from a Repository](doc:creating-an-application-from-a-repository).</li>
+</ul>
+
+<h3><a name="add-a-repository-to-an-application"></a>Add a Repository to an Application</h3>
+
+To add a repository to an existing application in Distelli:
+<ol>
+<li>In the Distelli WebUI click the <b>Applications</b> link at the top.</li>
+<li>[Navigate to the application](doc:navigating-to-an-application) you want to attach to your repository.</li>
+<li>Click the <b>Settings</b> link.</li>
+<li>Expand the <b>Repository</b> section.</li>
+</ol>
+If you have not integrated your repository with Distelli, the buttons will say:
+<ul>
+<li>Connect Bitbucket</li>
+<li>Connect Github</li>
+</ul>
+If you have already integrated your repository with Distelli, skip forward to [Repo Integrated](#section-repo-integrated).
+<h3>Connect Repo</h3>
+<ul>
+<li>Click the <b>Connect Repo</b> button for the repository that you wish to connect to.</li>
+<li>You may be prompted to login to your repository account.</li>
+<li>When prompted, click <b>Grant access</b>.</li>
+</ul>
+<h3>Repo Integrated</h3>
+Once you have integrated your repository with Distelli, the button(s) will say <b>Use Repo</b>. For example, if you have integrated your Github account with Distelli, the button on the right will say <b>Use Github</b>.
+<li>Click the Use Repository button for your repository;</li>
+</ol>
+- <b>Use Bitbucket**
+- <b>Use Github**
+You will be shown a list of repositories that you have access to.
+<li>Click the repository you wish to add.</li>
+<li>Select the branch or branches you wish to connect to.</li>
+<li>Click the <b>Connect</b> button.</li>
+</ol>
+You have connected your repository to your application.
+<li>Click the <b>gear</b> icon to the right of a branch.</li>
+</ol>
+<h3>Automatically build this branch when a new commit is pushed</h3>
+Enabling this feature will provide a textbox to enter build environment variables, and the option to build on your own hardware.
+Once this feature is enabled and a check-in to the repository occurs a build task will be automatically created.
+<h3>Automatically deploy this branch when a build succeeds</h3>
+
+{{% callout-danger %}}
+Automatic deploys require an environment with servers to deploy to.
+{{% /callout-danger %}}
+
+With this feature enabled, whenever a successful build occurs, a deploy task will be automatically created. This deploy task will deploy the release that was created from the build.
+<h2>Save</h2>
+<li> Click <b>Save Settings</b> button to save.</li>
+</ol>
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+creating-an-account1.md creating-an-account1.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Creating an Account"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+Signing up for an account is easy.
+
+<h3><a name="signing-up-for-a-distelli-account"></a>Signing up for a Distelli Account</h3>
+
+<ol>
+<li>Point your web browser at <b>[http://www.distelli.com/setup](http://www.distelli.com/setup)**</li>
+<li>Fill in your <b>email</b>.</li>
+</ol>
+
+{{% callout-warning %}}
+If you are creating a shared organization account, ensure you are using an <b>email</b> that is accessible to the people in your organization
+{{% /callout-warning %}}
+
+<li>Click the <b>Create Your Account</b> button.</li>
+<li>Enter a <b>username</b>.</li>
+</ol>
+
+{{% callout-warning %}}
+The <b>username</b> is required when creating and deploying applications using Distelli. It must be unique.
+{{% /callout-warning %}}
+
+
+{{% callout-info %}}
+For more information on Organizations and Teams see [Using an Organization Team Account](doc:using-an-organization-team-account).
+{{% /callout-info %}}
+
+You have created your Distelli Account and can begin using Distelli.
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+creating-an-application-1.md creating-an-application-1.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Creating an Application"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+You create applications in your Distelli account for the purpose of deploying them. Applications can be created with the Distelli CLI or via the Distelli WebUI.
+
+<h3><a name="create-an-application-with-the-webui"></a>Create an Application with the WebUI</h3>
+
+Using the Distelli WebUI you can create an application in your account.
+<ol>
+<li>Ensure you are signed in to Distelli [https://www.distelli.com/login](https://www.distelli.com/login).</li>
+<li>If you are not on the Applications page, click the <b>Applications</b> link in the top left.</li>
+<li>Click the <b>New App</b> button.</li>
+<li>In the <b>App Name</b> field give your application a name.</li>
+<li>Click the <b>Create Application without linking a repository</b> link.</li>
+</ol>
+You will be forwarded to the Create Environments section.
+<h4>Add Environment</h4>
+To add an environment enter the environment name and click the <b>Add Environment</b> button.
+<h4>Remove Environment</h4>
+To remove an environment click the trash can icon next to the environment you want to remove.
+<li>When all done configuring environments, click the <b>All Done</b> button.</li>
+</ol>
+An application in Distelli requires a ```distelli-manifest.yml``` file. This file contains the instructions for building and deploying your application.
+In the WebUI you are presented with a skeleton manifest to get you started. You should copy this and add this file to the root directory of your application.
+<li>Click <b>I've added the Manifest</b> button.</li>
+<li>Click <b>Sounds good. Create App!</b> button.</li>
+</ol>
+You are now on the new application page.
+Next steps may include:
+<ul>
+<li>[Adding Servers to an Environment](doc:adding-servers-to-an-environment) </li>
+<li>[Pushing an Application Release](pushing-an-application-release)</li>
+<li>[Deploying an Application](doc:deploying-an-application) </li>
+</ul>
+
+<h3><a name="create-an-application-with-the-cli"></a>Create an Application with the CLI</h3>
+
+You can use the Distelli CLI to create applications. For more information on the Distelli CLI see [Distelli CLI](doc:distelli-cli) reference guide.
+Using ```distelli create``` from the Distelli CLI you can create an application in your account.
+
+{{< callout-code >}}
+distelli create <username>/<appname>
+{{< /callout-code >}}
+
+
+{{< callout-code >}}
+# distelli create jdoe/SimpleApp\n Creating App: jdoe/SimpleApp\n App jdoe/SimpleApp created successfully
+{{< /callout-code >}}
+
+Next step may be [Pushing an Application Release](pushing-an-application-release) up to your account in Distelli.
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation](doc:product-documentation-index)
+creating-an-application-from-a-repository.md creating-an-application-from-a-repository.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Creating an Application from a Repository"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+With the <b>new application</b> workflow you can easily create an application in the Distelli WebUI from an existing public repository. Distelli currently supports the following public repositories:
+<ul>
+<li><a href="https://github.com/" target="_blank">https://github.com/</a></li>
+<li><a href="https://bitbucket.org/" target="_blank">https://bitbucket.org/</a></li>
+</ul>
+
+<h3><a name="repository-integration"></a>Repository Integration</h3>
+
+The master settings for integrating your Distelli account to your repository can be found in [Account Settings](doc:account-settings). To navigate to your repository integration settings see [Integrating with a Repository](doc:integrating-with-a-repository).
+
+{{% callout-info %}}
+You can setup the repository integration in the new application workflow below.
+{{% /callout-info %}}
+
+{
+"type": "basic",
+"title": "New Application"
+}
+[/block]
+To begin the new application workflow:
+<ol>
+<li>Click <b>Applications</b> from the top of the Distelli WebUI</li>
+<li>Click the <b>New App</b> button on the right.</li>
+</ol>
+This will take you to the new application page
+
+<h3><a name="1.-name-your-application"></a>1. Name your Application</h3>
+
+Enter a name for your application. This application name must not already be in use.
+
+{{% callout-warning %}}
+Application name can only contain alphanumerics, dashes, and underscores, and can't begin or end with a dash.
+{{% /callout-warning %}}
+
+{
+"type": "basic",
+"title": "2. Choose a Repo"
+}
+[/block]
+If you have not integrated your repository with Distelli, the buttons will say:
+<ul>
+<li>Connect Bitbucket</li>
+<li>Connect Github</li>
+</ul>
+If you have already integrated your repository with Distelli, skip forward to [Repo Integrated](#section-repo-integrated).
+<h3>Connect Repo</h3>
+<ol>
+<li>Click the <b>Connect Repo</b> button for the repository that you wish to connect to.</li>
+<li>You may be prompted to login to your repository account.</li>
+<li>When prompted, click <b>Grant access</b>.</li>
+</ol>
+<h3>Repo Integrated</h3>
+Once you have integrated your repository with Distelli, the button(s) will say <b>Use Repo</b>. For example, if you have integrated your Github account with Distelli, the button on the right will say <b>Use Github</b>.
+<li>Click the <b>Use Repo</b> button for the repository that contains the application you wish to create in Distelli.</li>
+</ol>
+Next you will be presented a list of repository applications.
+<li>Click the repository application you wish to use.</li>
+</ol>
+You have chosen your repository.
+
+<h3><a name="3.-choose-a-branch"></a>3. Choose a Branch</h3>
+
+Next you will be prompted for the repository branch.
+Click the <b>branch</b> you wish to use, and continue.
+
+<h3><a name="4.-create-environments"></a>4. Create Environments</h3>
+
+The next step is to create an application environment. By default, two environments are created:
+<ul>
+<li>APPLICATION_NAME-beta</li>
+<li>APPLICATION_NAME-prod</li>
+</ul>
+<h3>Add Another Environment</h3>
+You can add another environment by:
+<ol>
+<li>Enter the environment name in the <b>Enter Environment Name</b> field.</li>
+<li>Click the <b>+ Add Environment</b> button.</li>
+</ol>
+<h3>Delete an Environment</h3>
+You can remove an environment by:
+<ol>
+<li>Clicking the <b>trash-can</b> icon to the right of the environment name.</li>
+</ol>
+<h3>Done</h3>
+**Click</b> the <b>All Done</b> button when you have the environments you would like created.
+
+<h3><a name="5.-distelli-manifest"></a>5. Distelli Manifest</h3>
+
+The next step is to insure your application has a distelli-manifest file checked into your repository. A skeleton distelli-manifest is provided for you.
+The manifest file provides the instructions for building and deploying your application. For more information see [Distelli Manifest](doc:distelli-manifest).
+<ol>
+<li>Download the skeleton distelli-manifest.yml file.</li>
+<li>Save the file in your repo directory with the name <b>distelli-manifest.yml</b>.</li>
+<li>Add, commit, and push your repo with the distelli-manifest.yml file.</li>
+<li>Click the <b>I've pushed my Repo</b> button.</li>
+</ol>
+
+<h3><a name="6.-finish-up"></a>6. Finish Up</h3>
+
+Check to make sure that everything is correct. You can backup to any step and restart at that step.
+During the Finish Up step you may:
+<ul>
+<li>[Enable auto build](#section-enable-auto-build).</li>
+<li>[Add build environment variables](#section-add-build-environment-variables).</li>
+</ul>
+<h2>Enable Auto Build</h2>
+To enable auto-build:
+<ol>
+<li>Check the <b>Auto Build</b> option.</li>
+</ol>
+
+{{% callout-info %}}
+Auto build is enabled by default.
+{{% /callout-info %}}
+
+To set any build environment variables:
+<ol>
+<li>Click the <b>Build Configuration</b>.</li>
+<li>Enter your build environment variables in the text entry box. Enter the variables in this format:</li>
+</ol>
+
+{{< callout-code >}}
+KEY=value
+{{< /callout-code >}}
+
+<h2>Done</h2>
+When you are ready, click the <b>Sounds good.</b> button. The button may say:
+<ul>
+<li><b>Sounds good. Create App!</b> if you did not enable auto build.</li>
+<li><b>Looks good. Start Build!</b> if you did enable auto build.</li>
+</ul>
+
+<h3><a name="next"></a>Next</h3>
+
+Congratulations.
+If you enabled the <b>auto build</b> option you will find yourself at the builds list page with the auto build at or near the top of the list. You can click on the bar to view the build. See [Viewing Builds](doc:viewing-builds) for more info.
+If you did not enable auto build then you will find yourself at the new application page. See [Viewing an Application](doc:viewing-an-application) for more info.
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+creating-an-environment-1.md creating-an-environment-1.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Creating an Environment"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+Environments belong to applications. Before you can create an environment you must have an application.
+
+<h3><a name="create-an-environment"></a>Create an Environment</h3>
+
+To create an Environment, you must first select the application.
+<ol>
+<li>In the Distelli WebUI select the <b>application</b> you want to build an environment for.</li>
+<li>Click the <b>Environments</b> link.</li>
+</ol>
+This will take you to the application environment page.
+<li>Click the <b>Create Environment</b> link.</li>
+<li>Enter a <b>Name</b> for the environment.</li>
+<li>Click the <b>Create Environment</b> button.</li>
+</ol>
+This will take you to the newly create environment page.
+You have successfully created an environment.
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+creating-applications-in-a-team-account.md creating-applications-in-a-team-account.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Creating Applications in a Team Account"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+Once you are a member of a team, you can create, bundle, push, and deploy applications in the team account using the [Distelli CLI](doc:distelli-cli). This application will be available to all team members.
+
+<h3><a name="create-an-application-in-a-team-account"></a>Create an Application in a Team Account</h3>
+
+
+{{% callout-warning %}}
+If you have never created an application it is recommended that you go through the [Getting Started Technical Steps](getting-started) first.
+{{% /callout-warning %}}
+
+{
+"type": "warning",
+"body": "You must have the username associated with the team to complete these steps. If you do not have the username see [Finding a Teams Distelli Username](finding-a-teams-distelli-username)."
+}
+[/block]
+Using ```distelli create``` you can create an application in a team account.
+
+{{< callout-code >}}
+distelli create <username>/SimpleApp
+{{< /callout-code >}}
+
+
+{{< callout-code >}}
+# distelli create janedoe/SimpleApp\n Creating App: janedoe/SimpleApp\n App janedoe/SimpleApp created successfully
+{{< /callout-code >}}
+
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+creating-a-team.md creating-a-team.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Creating a Team"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+Creating a team allows you to grant other Distelli users access to your account, including; applications, environments, servers, and more.
+
+<h3><a name="create-a-team"></a>Create a Team</h3>
+
+To create a team, follow these steps.
+<ol>
+<li>Sign In to the Distelli WebUI at [https://www.distelli.com/login](https://www.distelli.com/login).</li>
+<li>Click the <b>gear icon</b> on the top right.</li>
+<li>Click the <b>Teams</b> link on the left.</li>
+<li>Click the <b>New Team</b> button.</li>
+<li>Give the team a unique name.</li>
+<li>Click the <b>Create Team</b> button.</li>
+</ol>
+You have created a new team in your account. Next you will want to add members to the team.
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+creating-build-begins-notification.md creating-build-begins-notification.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Creating 'Build begins' Notification"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+When a build of an application begins, a notification event occurs. This event can trigger a customized notification that you can configure. For more information on notification types see [Types of Notifications](doc:types-of-notifications).
+This event occurs whether the build was triggered manually or automatically. This event occurs whether the build is on Distelli servers or on your server(s).
+
+<h3><a name="create-a-build-begins-notification"></a>Create a Build Begins Notification</h3>
+
+Build notifications are <i>application</i> specific. Build notifications can be found in application settings. To create a <b>build begins</b> notification:
+
+{{% callout-warning %}}
+Before beginning ensure you are using the correct team or individual account in Distelli. For more information see [Using a Team](doc:using-a-team).
+{{% /callout-warning %}}
+
+<li>Click <b>Settings</b>.</li>
+<li>Expand the <b>Notification</b> section.</li>
+<li>Select the <b>[x] Send notification when build of this application begins**</li>
+<li>Under <b>Add a Notification</b> click the dropdown.</li>
+<li>Select a <b>[Notification Type](doc:types-of-notifications)</b>.</li>
+<li>Enter the appropriate <i>notification type</i> data.</li>
+<li>Click the <b>Add Notification</b> button</li>
+</ol>
+You have added the notification.
+
+<h3><a name="deleting-a-notification"></a>Deleting a Notification</h3>
+
+To delete a notification:
+<ol>
+<li>Click the <b>X</b> at the right of the notification.</li>
+</ol>
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+creating-build-completes-notification.md creating-build-completes-notification.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Creating 'Build completes' Notification"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+When a build of an application is done, a notification event occurs. This event can trigger a customized notification that you can configure. For more information on notification types see [Types of Notifications](doc:types-of-notifications).
+This event occurs whether the build was triggered manually or automatically. This event occurs whether the build is on Distelli servers or on your server(s).
+
+<h3><a name="create-a-build-completes-notification"></a>Create a Build Completes Notification</h3>
+
+Build notifications are <i>application</i> specific. Build notifications can be found in application settings. To create a <b>build completes</b> notification:
+
+{{% callout-warning %}}
+Before beginning ensure you are using the correct team or individual account in Distelli. For more information see [Using a Team](doc:using-a-team).
+{{% /callout-warning %}}
+
+<li>Click <b>Settings</b>.</li>
+<li>Expand the <b>Notification</b> section.</li>
+<li>Select the <b>[x] Send notification when build of this application completes**</li>
+<li>Under <b>Add a Notification</b> click the dropdown.</li>
+<li>Select a <b>[Notification Type](doc:types-of-notifications)</b>.</li>
+<li>Enter the appropriate <i>notification type</i> data.</li>
+<li>Click the <b>Add Notification</b> button</li>
+</ol>
+You have added the notification.
+
+<h3><a name="deleting-a-notification"></a>Deleting a Notification</h3>
+
+To delete a notification:
+<ol>
+<li>Click the <b>X</b> at the right of the notification.</li>
+</ol>
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+creating-deploy-begins-notification.md creating-deploy-begins-notification.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Creating 'Deploy begins' Notification"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+When a deploy of an application begins, a notification event occurs. This event can trigger a customized notification that you can configure. For more information on notification types see [Types of Notifications](doc:types-of-notifications).
+This event occurs whether the deploy was triggered manually or automatically.
+
+<h3><a name="create-a-deploy-begins-notification"></a>Create a Deploy Begins Notification</h3>
+
+Deploy notifications are <i>application environment</i> specific. Deploy notifications can be found in application environment settings. To create a <b>deploy begins</b> notification:
+
+{{% callout-warning %}}
+Before beginning ensure you are using the correct team or individual account in Distelli. For more information see [Using a Team](doc:using-a-team).
+{{% /callout-warning %}}
+
+<li>Click <b>Settings</b>.</li>
+<li>Select the <b>[x] Send a notification when a deployment to this environment begins**</li>
+<li>Under <b>Add a Notification</b> click the dropdown.</li>
+<li>Select a <b>[Notification Type](doc:types-of-notifications)</b>.</li>
+<li>Enter the appropriate <i>notification type</i> data.</li>
+<li>Click the <b>Add Notifications</b> button</li>
+</ol>
+You have added the notification.
+
+<h3><a name="delete-a-notification"></a>Delete a Notification</h3>
+
+To delete a notification:
+<ol>
+<li>Click the <b>X</b> at the right of the notification.</li>
+</ol>
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+creating-deploy-completes-notification.md creating-deploy-completes-notification.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Creating 'Deploy completes' Notification"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+When a deploy of an application begins, a notification event occurs. This event can trigger a customized notification that you can configure. For more information on notification types see [Types of Notifications](doc:types-of-notifications).
+This event occurs whether the deploy was triggered manually or automatically.
+
+<h3><a name="create-a-deploy-completes-notification"></a>Create a Deploy Completes Notification</h3>
+
+Deploy notifications are <i>application environment</i> specific. Deploy notifications can be found in application environment settings. To create a <b>deploy begins</b> notification:
+
+{{% callout-warning %}}
+Before beginning ensure you are using the correct team or individual account in Distelli. For more information see [Using a Team](doc:using-a-team).
+{{% /callout-warning %}}
+
+<li>Click <b>Settings</b>.</li>
+<li>Select the <b>[x] Send a notification when a deployment to this environment completes**</li>
+<li>Under <b>Add a Notification</b> click the dropdown.</li>
+<li>Select a <b>[Notification Type](doc:types-of-notifications)</b>.</li>
+<li>Enter the appropriate <i>notification type</i> data.</li>
+<li>Click the <b>Add Notifications</b> button</li>
+</ol>
+You have added the notification.
+
+<h3><a name="delete-a-notification"></a>Delete a Notification</h3>
+
+To delete a notification:
+<ol>
+<li>Click the <b>X</b> at the right of the notification.</li>
+</ol>
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+creating-release-notes.md creating-release-notes.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Creating Release Notes"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+When doing a ```distelli push``` you can provide textual release notes.
+These instructions are specific to creating release notes when creating a new release. If you want to add release notes to an existing release see [Editing Release Notes](doc:editing-release-notes).
+You can create release notes when doing a ```distelli push``` from:
+<ul>
+<li>[The command line](#create-release-notes-from-cli).</li>
+<li>[The Distelli manifest ReleaseNotesCmd](#create-release-notes-from-manifest).</li>
+</ul>
+
+<h3><a name="create-release-notes-from-cli"></a>Create Release Notes from CLI</h3>
+
+When pushing a new release to a Distelli account you can use the option ```--release-notes```.
+
+{{< callout-code >}}
+distelli push --release-notes
+{{< /callout-code >}}
+
+Here is an example session:
+
+{{< callout-code >}}
+$ distelli push --release-notes\nEnter Release Notes (Ctrl-D to Finish):\n\nThis release fixes issues found in the following bugs:\n</i> Bug #4373\n</i> Bug #4201\n</i> Bug #3293\n\n Packaged 1 files in 1 directories\n Pushing App: SimpleApp\n Uploading Bundle: [=========] 100%\n \n Creating Release... DONE\n Uploading Release Notes... DONE
+{{< /callout-code >}}
+
+For more information on pushing releases see [Distelli CLI](doc:distelli-cli#push)
+
+<h3><a name="create-release-notes-from-manifest"></a>Create Release Notes from Manifest</h3>
+
+You can automate the creation of release notes with the Distelli manifest ReleaseNotesCmd section. This step occurs during a ```distelli push``` after the ```PreRelease``` section. If using builds on Distelli, this step occurs after the build and test have completed successfully. This step will occur on the build server.
+An example manifest with ReleaseNotesCmd:
+
+{{< callout-code >}}
+ReleaseNotesCmd:\n - echo \Application X Release Notes\\n - echo \===========================\\n - echo \\\n - 'hg log -l 10 -b default'
+{{< /callout-code >}}
+
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+deleting-an-application.md deleting-an-application.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Deleting an Application"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+You can delete an application.
+
+{{% callout-warning %}}
+You cannot delete an application that is currently deployed and running on servers. You must first [terminate the application](doc:terminating-an-application).
+{{% /callout-warning %}}
+
+{
+"type": "danger",
+"body": "This will delete the application, all its environments, and all historical information regarding the application, its releases, and deployments."
+}
+[/block]
+
+<h3><a name="delete-an-application"></a>Delete an Application</h3>
+
+<ol>
+<li>Navigate to the application you want to delete. [Navigating to an Application](doc:navigating-to-an-application)</li>
+<li>Click the <b>Settings</b> link.</li>
+<li>Click <b>Delete Application</b> in the <i>Danger Zone</i>.</li>
+</ol>
+You will be presented with a dialog that asks; Are you sure you want to delete YOURAPP? To continue you must:
+<li>Type in the name of the application you are deleting.</li>
+<li>Click the <b>Delete</b> button.</li>
+</ol>
+You have permanently removed the application.
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+deleting-an-environment.md deleting-an-environment.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Deleting an Environment"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+You can delete an environment only if it has no servers in it.
+
+<h3><a name="delete-an-environment"></a>Delete an Environment</h3>
+
+<ol>
+<li>In the Distelli WebUI, navigate to the <b>environment</b> you want to delete.</li>
+<li>Click the <b>Settings</b> link.</li>
+<li>Click the <b>Delete Environment</b> link that can be found in the Danger Zone at the bottom.</li>
+</ol>
+
+{{% callout-warning %}}
+If there are servers still in the environment, you will be given a warning. You must remove all servers in the environment before deleting.
+{{% /callout-warning %}}
+
+<li>Click <b>Yes**</li>
+</ol>
+You have successfully deleted the environment.
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+deleting-a-server.md deleting-a-server.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Deleting a Server"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+You can completely remove a server from Distelli via 2 methods.
+<ul>
+<li>Delete a Server with the agent(#delete-a-server-with-the-agent).</li>
+<li>Delete a Server from the Distelli WebUI(#delete-a-server-from-the-webui).</li>
+</ul>
+
+<h3><a name="delete-a-server-with-the-agent"></a>Delete a Server with the Agent</h3>
+
+Executing a ```dagent uninstall``` will:
+<ul>
+<li>All Distelli deployed applications will be removed from the server.</li>
+<li>The server will be removed from all environments.</li>
+<li>The server will be removed from its Distelli account.</li>
+<li>The agent supervise process will no longer start at boot.</li>
+</ul>
+
+{{% callout-warning %}}
+This requires root or administrator access.
+{{% /callout-warning %}}
+
+
+{{< callout-code >}}
+dagent uninstall
+{{< /callout-code >}}
+
+
+{{< callout-code >}}
+--yes
+{{< /callout-code >}}
+
+<h2>Examples</h2>
+
+{{< callout-code >}}
+# dagent uninstall\nAre you sure you want to uninstall the Distelli Agent? (to avoid this prompt, pass --yes flag)\n <i> All applications will be removed from this server\n <i> The server will be removed from all environments\n <i> The server will be removed from the web interface\n <i> The supervise process will be removed from 'upstart'\nContinue? (yes/no)\nyes\n#
+{{< /callout-code >}}
+
+{
+"type": "basic",
+"title": "Delete a Server from the WebUI"
+}
+[/block]
+A server can be deleted from Distelli in the WebUI only if the server is unavailable/down.
+<ol>
+<li>Click the <b>Servers</b> link from the top of the Distelli WebUI.</li>
+<li>Find the server you are wish to delete and click the red trash-can icon on the right.</li>
+</ol>
+You will be prompted to confirm
+<li>Click <b>Yes</b>.</li>
+</ol>
+You have removed the server from Distelli.
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+deleting-a-team.md deleting-a-team.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Deleting a Team"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+You can remove a team if it is not being used. This requires that there are no members in the team before removing.
+
+<h3><a name="delete-a-team"></a>Delete a Team</h3>
+
+<ol>
+<li>While signed in to the Distelli WebUI click the <b>gear icon</b> on top right.</li>
+<li>Click the <b>Teams</b> link on the left.</li>
+</ol>
+
+{{% callout-warning %}}
+You must [remove all members](remove-members-from-a-team) from a team before deleting the team.
+{{% /callout-warning %}}
+
+You will be presented a dialog for confirmation.
+<li>Click <b>Yes</b> in the dialog.</li>
+</ol>
+You have deleted your team.
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+deploying-an-application-1.md deploying-an-application-1.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Deploying an Application"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+Deploying applications is a cornerstone of the Distelli SaaS. Once you have created a release of an application in your Distelli account you can use Distelli to deploy the application to servers in an environment.
+
+{{% callout-info %}}
+If you are new to Distelli you may benefit from looking at the [Getting Started Guide](getting-started) first.
+{{% /callout-info %}}
+
+The following manifest sections will be processed in this order.
+<ol>
+<li>PreInstall</li>
+<li>PkgInclude or Install</li>
+<li>PostInstall</li>
+<li>PreStart</li>
+<li>Start or Exec</li>
+<li>PostStart</li>
+</ol>
+For more information see:
+<ul>
+<li>[Distelli Manifest](doc:distelli-manifest) </li>
+<li>[Deployment Types](doc:deployment-types) </li>
+</ul>
+
+<h3><a name="deploy-an-application"></a>Deploy an Application</h3>
+
+You can deploy applications from the [Distelli CLI](doc:distelli-cli) and the [Distelli WebUI](doc:distelli-webui).
+<ul>
+<li>[Deploying with the Distelli CLI](#deploying-with-the-distelli-cli)</li>
+<li>[Deploying with the Distelli WebUI](#deploying-with-the-distelli-webui)</li>
+<li>[Auto Deploy with Distelli](#auto-deploy-with-distelli)</li>
+</ul>
+
+<h3><a name="deploying-with-the-distelli-cli"></a>Deploying with the Distelli CLI</h3>
+
+To deploy with the CLI, you must:
+<ol>
+<li>Create the application in your Distelli account. [Creating an Application](doc:creating-an-application-1)</li>
+<li>Push a release version of the application. [Pushing an Application Release](doc:pushing-an-application-release) </li>
+<li>Create an environment for the application. [Creating an Environment](creating-an-environment-1)</li>
+<li>Add one or more servers to the environment. [Adding Servers to an Environment](doc:adding-servers-to-an-environment) </li>
+</ol>
+To do the deploy ensure you are in the application directory and have a configured distelli-manifest.yml file.
+<h1>Deploy to an Environment</h1>
+
+{{< callout-code >}}
+distelli deploy --env PRODUCTION
+{{< /callout-code >}}
+
+
+{{< callout-code >}}
+distelli deploy --env BETATEST --release v50
+{{< /callout-code >}}
+
+
+{{< callout-code >}}
+distelli deploy --env TEST --stagger-delay 10 --stagger-size 2
+{{< /callout-code >}}
+
+
+<h3><a name="deploying-with-the-distelli-webui"></a>Deploying with the Distelli WebUI</h3>
+
+To deploy with the WebUI, you must:
+<ol>
+<li>Create the application in your Distelli account. [Creating an Application](doc:creating-an-application-1)</li>
+<li>Push a release version of the application. [Pushing an Application Release](doc:pushing-an-application-release) </li>
+<li>Create an environment for the application. [Creating an Environment](creating-an-environment-1)</li>
+<li>Add one or more servers to the environment. [Adding Servers to an Environment](doc:adding-servers-to-an-environment)</li>
+<li>Ensure you are signed into the Distelli WebUI. [Signing in to Distelli](doc:signing-in-to-distelli) </li>
+<li>Navigate to the application you wish to deploy. [Navigating to an Application](doc:navigating-to-an-application) </li>
+<li>Navigate to the environment you wish to deploy to. [Navigating to an Environment](doc:navigating-to-an-environment) </li>
+</ol>
+Once you have completed the above steps you are ready to click the <b>Deploy</b> button for the Release you wish to deploy to this environment.
+You will be presented a dialog box.
+
+<img src="/assets/images/webui_newdeploy_dialog.png">
+
+Note you can set the stagger options for the deploy in this dialog.
+Click the <b>Deploy</b> button to deploy your application.
+
+<h3><a name="auto-deploy-with-distelli"></a>Auto Deploy with Distelli</h3>
+
+You can trigger an auto deploy when an application completes a successful deploy.
+See [Enabling Auto Deploy](doc:enabling-auto-deploy).
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+deploying-applications-in-a-team-account.md deploying-applications-in-a-team-account.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Deploying Applications in a Team Account"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+Once you are a member of a team, you can create, bundle, push, and deploy applications in the team account using the [Distelli CLI](doc:distelli-cli).
+For more information on using organization teams see [Using an Organization Team Account](doc:using-an-organization-team-account).
+
+<h3><a name="deploy-an-application"></a>Deploy an Application</h3>
+
+You can deploy applications from the [Distelli CLI](doc:distelli-cli) and the [Distelli WebUI](#deploying-with-the-distelli-webui).
+<ul>
+<li>[Deploying with the Distelli CLI](#deploying-with-the-distelli-cli)</li>
+<li>[Deploying with the Distelli WebUI](#deploying-with-the-distelli-webui)</li>
+</ul>
+
+<h3><a name="deploying-with-the-distelli-cli"></a>Deploying with the Distelli CLI</h3>
+
+To deploy with the CLI, you must have:
+<ol>
+<li>Created the application in your Distelli team. [Creating Applications in a Team Account](doc:creating-applications-in-a-team-account)</li>
+<li>Pushed a release version of the application. [Pushing Applications in a Team Account](doc:pushing-applications-in-a-team-account)</li>
+<li>Created an environment for the application. [Creating an Environment](creating-an-environment-1)</li>
+<li>Added one or more servers to the environment. [Adding Servers to a Team Account](doc:add-servers-to-a-team-account)</li>
+</ol>
+To do the deploy ensure you are in the application directory and have a configured distelli-manifest.yml file.
+
+{{% callout-warning %}}
+To deploy to a team account you must have the team user name in the distelli-manifest.yml.
+{{% /callout-warning %}}
+
+
+{{< callout-code >}}
+distelli deploy --env PRODUCTION
+{{< /callout-code >}}
+
+
+{{< callout-code >}}
+distelli deploy --env BETATEST --release v50
+{{< /callout-code >}}
+
+
+{{< callout-code >}}
+distelli deploy --env TEST --stagger-delay 10 --stagger-size 2
+{{< /callout-code >}}
+
+
+<h3><a name="deploying-with-the-distelli-webui"></a>Deploying with the Distelli WebUI</h3>
+
+To deploy with the WebUI, you must:
+<ol>
+<li>Create the application in your Distelli account. [Creating Applications in a Team Account](doc:creating-applications-in-a-team-account)</li>
+<li>Push a release version of the application. [Pushing Applications in a Team Account](doc:pushing-applications-in-a-team-account)</li>
+<li>Create an environment for the application. [Creating an Environment](creating-an-environment-1)</li>
+<li>Add one or more servers to the environment. [Adding Servers to a Team Account](doc:add-servers-to-a-team-account)</li>
+<li>Ensure you are signed into the Distelli WebUI. [Signing in to Distelli](doc:signing-in-to-distelli) </li>
+<li>Navigate to the team you wish to use. [Using a Team](doc:using-a-team) </li>
+<li>Navigate to the application you wish to deploy. [Navigating to an Application](doc:navigating-to-an-application) </li>
+<li>Navigate to the environment you wish to deploy to. [Navigating to an Environment](doc:navigating-to-an-environment) </li>
+</ol>
+Once you have completed the above steps you are ready to click the <b>Deploy</b> button for the Release you wish to deploy to this teams application environment.
+You will be presented a dialog box.
+
+<img src="/assets/images/webui_newdeploy_dialog.png">
+
+Note you can set the stagger options for the deploy in this dialog.
+Click the <b>Deploy</b> button to deploy your application.
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+deploying-a-release.md deploying-a-release.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Deploying a Release"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+Once you have created a release of an application in your Distelli account you can use Distelli to deploy the application to the servers in an environment.
+Releases can also be created by a successful build. For more information see [Overview of CI/CD with Distelli](doc:overview-of-cicd-with-distelli).
+
+<h3><a name="deploy-a-release"></a>Deploy a Release</h3>
+
+See [Deploying an Application](doc:deploying-an-application).
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+deploying-to-an-environment.md deploying-to-an-environment.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Deploying to an Environment"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+You deploy applications to environments.
+
+<h3><a name="deploy-to-an-environment"></a>Deploy to an Environment</h3>
+
+See [Deploying an Application](doc:deploying-an-application-1).
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+deployments-faq.md deployments-faq.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Deployments FAQ"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+
+<h3><a name="what-does-auto-deploy-mean?"></a>What does auto deploy mean?</h3>
+
+See [Enabling Auto Deploy](doc:enabling-auto-deploy).
+
+<h3><a name="how-do-i-see-a-deployment-that-was-created-by-auto-deploy?"></a>How do I see a deployment that was created by auto deploy?</h3>
+
+See [Viewing Builds](doc:viewing-builds).
+
+<h3><a name="how-do-i-start-a-deployment?"></a>How do I start a deployment?</h3>
+
+See [Deploying an Application](doc:deploying-an-application-1).
+
+<h3><a name="how-do-i-add-a-description-to-a-deployment?"></a>How do I add a description to a deployment?</h3>
+
+You can set the deployment description after it starts via the Distelli WebUI. See [Viewing a Deployment](doc:viewing-a-deployment).
+You can set the deployment description on queueing the deploy via the Distelli CLI. See [Distelli CLI deploy](doc:distelli-cli#deploy).
+
+<h3><a name="how-do-i-view-a-deployment-description?"></a>How do I view a deployment description?</h3>
+
+See [Viewing a Deployment](doc:viewing-a-deployment).
+
+<h3><a name="how-do-i-edit-a-deployment-description?"></a>How do I edit a deployment description?</h3>
+
+See [Viewing a Deployment](doc:viewing-a-deployment).
+
+<h3><a name="how-do-i-enable-auto-deployment?"></a>How do I enable auto deployment?</h3>
+
+See [Enabling Auto Deploy](doc:enabling-auto-deploy).
+
+<h3><a name="how-do-i-auto-deploy-to-an-environment?"></a>How do I auto deploy to an environment?</h3>
+
+See [Enabling Auto Deploy](doc:enabling-auto-deploy).
+
+<h3><a name="how-do-i-disable-auto-deployment?"></a>How do I disable auto deployment?</h3>
+
+See [Enabling Auto Deploy](doc:enabling-auto-deploy).
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+deployments.md deployments.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "DEPLOYMENTS"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+
+<h3><a name="deployments"></a>Deployments</h3>
+
+[Enabling Auto Deploy](doc:enabling-auto-deploy)
+[Cancelling a Deploy](doc:cancelling-a-deploy)
+[Viewing a Deployment](doc:viewing-a-deployment)
+[Deployments FAQ](doc:deployments-faq)
+Much of the deployment information can be found under [Applications](doc:applications).
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+disconnecting-a-branch-from-an-application.md disconnecting-a-branch-from-an-application.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Disconnecting a Branch from an Application"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+Applications in Distelli that are attached to a repository can build and deploy based on a specific repository branch.
+
+<h3><a name="disconnect-a-branch-from-an-application"></a>Disconnect a Branch from an Application</h3>
+
+These instructions assume the application is already integrated with a repository. If not see:
+<ul>
+<li>[Creating an Application from a Repository](doc:creating-an-application-from-a-repository) </li>
+<li>[Integrating with a Repository](doc:integrating-with-a-repository) </li>
+</ul>
+<ol>
+<li>Navigate to the application [Navigating to an Application](doc:navigating-to-an-application).</li>
+<li>Click <b>Settings</b>.</li>
+<li>Expand the <b>Repository</b> section by clicking the (+).</li>
+<li>For the branch you want to disconnect click the <b>gear</b> (show branch settings) icon on the right.</li>
+<li>Scroll to the bottom of the expanded repository section.</li>
+<li>Click <b>Disconnect Branch</b>.</li>
+<li>Confirm by clicking the <b>Yes</b> button.</li>
+</ol>
+You have disconnected your branch.
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+downloading-a-build-log.md downloading-a-build-log.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Downloading a Build Log"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+The build log contains useful information related to your build. It is also invaluable in troubleshooting.
+The build log can be found on the build page. To navigate to a build page:
+<ol>
+<li>Click <b>Builds</b> at the top of the Distelli WebUI.</li>
+<li>Click on a build to see the associated log.</li>
+</ol>
+
+<h3><a name="download-build-log"></a>Download Build Log</h3>
+
+To download the build log, click the <b>Download Log</b> button on the build page.
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+editing-release-notes.md editing-release-notes.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Editing Release Notes"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+Editing release notes allows you the ability to add or edit notes for an existing application release.
+
+<h3><a name="edit-release-notes"></a>Edit Release Notes</h3>
+
+To edit or add release notes to an existing application release:
+<ol>
+<li>Navigate to the application that you wish to edit/add release notes. [Navigating to an Application](doc:navigating-to-an-application)</li>
+<li>Navigate to the release that you wish to edit/add release notes [Navigating to a Release](doc:navigating-to-a-release)</li>
+<li>From the release page click the <b>Notes</b> link.</li>
+</ol>
+You will find yourself at the Release Note page. Here you can add or edit the note.
+<li>When finished click <b>Save Note</b>.</li>
+</ol>
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+editing-your-profile.md editing-your-profile.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Editing your Profile"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+Editing your profile will allow you to change your Full Name or your profile avatar.
+
+<h3><a name="edit-the-profile"></a>Edit the Profile</h3>
+
+<ol>
+<li>Sign in to the Distelli WebUI at [https://www.distelli.com/login](https://www.distelli.com/login)</li>
+<li>While signed in to the Distelli WebUI, click the word <b>Owner</b> in the top right. If you are currently in a team view, click the team name.</li>
+</ol>
+This will take you to your account Profile page.
+<li>Here you can change your:</li>
+</ol>
+- Full Name
+- Gravatar Email (for more info on this see [Adding an Avatar to your Profile](doc:adding-a-gravatar-to-your-profile) )
+<li>Click <b>Save Changes</b> button.</li>
+</ol>
+You have changed your Profile information.
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+enabling-auto-build.md enabling-auto-build.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Enabling Auto Build"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+Auto build is a feature that provides [continuous integration](doc:definitionsterminology#continuous-integration) and is the first part of [continuous deployment](doc:definitionsterminology#continuous-deployment).
+
+{{% callout-info %}}
+To enable auto build you must first connect a repository to your application in Distelli.
+{{% /callout-info %}}
+
+<ul>
+<li>[Integrating with a Repository](doc:integrating-with-a-repository)</li>
+<li>[Connecting a Repository to an Application](doc:connecting-a-repository-to-an-application) </li>
+</ul>
+Auto build functionality is specific to an application.
+The auto build options can be found in the [application settings](doc:application-settings).
+
+<h3><a name="enable-auto-build"></a>Enable Auto Build</h3>
+
+If you have not connected your application to a repository see [Connecting a Repository to an Application](doc:connecting-a-repository-to-an-application).
+<ol>
+<li>In the Distelli WebUI click <b>Applications</b> at the top</li>
+<li>[Navigate to the application](doc:navigating-to-an-application) you wish to enable auto build.</li>
+<li>Click the <b>Settings</b> link.</li>
+<li>If you have not connected a repository to this application see [Connecting a Repository to an Application](doc:connecting-a-repository-to-an-application).</li>
+</ol>
+Once your application is connected to a repository you will have an option to enable auto builds.
+<li>Check the <b>Automatically build this branch when a new commit is pushed</b> box.</li>
+<li>Set any build environment variables.</li>
+<li>Click <b>Save Repo Settings**</li>
+</ol>
+You have enabled auto build.
+For continuous deployments see [Enabling Auto Deploy](doc:enabling-auto-deploy).
+
+<h3><a name="disable-auto-build"></a>Disable Auto Build</h3>
+
+<ol>
+<li>In the Distelli WebUI click <b>Applications</b> at the top</li>
+<li>[Navigate to the application](doc:navigating-to-an-application) you wish to disable auto build.</li>
+<li>Click the <b>Settings</b> link.</li>
+<li>Un-check the <b>Automatically build this branch when a new commit is pushed</b> box.</li>
+<li>Click <b>Save Repo Settings**</li>
+</ol>
+You have disabled auto build.
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+enabling-auto-deploy.md enabling-auto-deploy.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Enabling Auto Deploy"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+Auto deploy is a feature that provides [continuous deployment](doc:definitionsterminology#continuous-deployment) in conjunction with auto build. For more information on auto build see [Enabling Auto Build](doc:enabling-auto-build).
+Auto deploy functionality is specific to an application.
+The auto deploy options can be found in the [application settings](doc:application-settings).
+
+<h3><a name="enable-auto-deploy"></a>Enable Auto Deploy</h3>
+
+
+{{% callout-info %}}
+To configure auto deploy you must have an application environment. See [Creating an Environment](doc:creating-an-environment-1). For auto deploy to work, the environment must have 1 or more servers.
+{{% /callout-info %}}
+
+<li>[Navigate to the application](doc:navigating-to-an-application) you wish to enable auto deploy.</li>
+<li>Click the <b>Settings</b> link.</li>
+<li>Check the <b>Automatically deploy this branch when a build succeeds</b>.</li>
+</ol>
+A list of environments will be shown.
+<li>Select the environment(s) you wish auto deploy to be enabled.</li>
+<li>Click the <b>Save Repo Settings</b> button.</li>
+</ol>
+
+<h3><a name="disable-auto-deploy"></a>Disable Auto Deploy</h3>
+
+<ol>
+<li>In the Distelli WebUI click <b>Applications</b> at the top</li>
+<li>[Navigate to the application](doc:navigating-to-an-application) you wish to disable auto deploy.</li>
+<li>Click the <b>Settings</b> link.</li>
+<li>Un-check the <b>Automatically deploy this branch when a build succeeds</b>.</li>
+<li>Click the <b>Save Repo Settings</b> button.</li>
+</ol>
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+environment-settings.md environment-settings.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Environment Settings"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+Application environments have configurable settings.
+
+<h3><a name="description"></a>Description</h3>
+
+This is the environment description.
+
+<h3><a name="auto-deploy-the-active-release-when-a-new-server-joins-the-environment"></a>Auto Deploy the Active Release when a new Server joins the Environment</h3>
+
+If this feature is checked (enabled), when adding servers to environments via a [Distelli distelli.yml Usage](doc:distelli-distelliyml-usage) file, Distelli will initiate a deploy of the latest successful release to the server.
+This is checked (enabled) by default.
+For more info see [Distelli distelli.yml Usage](doc:distelli-distelliyml-usage).
+
+<h3><a name="send-a-notification-when-a-deployment-to-this-environment-completes"></a>Send a Notification when a Deployment to this Environment Completes</h3>
+
+If this feature is checked (enabled), when a deployment completes, a notification will be sent to all the notification types that have been added.
+This is unchecked (disabled) by default.
+
+<h3><a name="send-an-additional-notification-when-a-deployment-starts"></a>Send an Additional Notification when a Deployment Starts</h3>
+
+If this feature is checked (enabled), when a deployment begins, a notification will be sent to all the notification types that have been added.
+This is unchecked (disabled) by default.
+
+<h3><a name="notifications"></a>Notifications</h3>
+
+
+{{% callout-info %}}
+For more info on notifications, see [Notifications](doc:notifications).
+{{% /callout-info %}}
+
+{
+"type": "basic",
+"title": "Product Documentation"
+}
+[/block]
+[Product Documentation Index](doc:product-documentation-index)
+environments-faq.md environments-faq.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Environments FAQ"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+
+<h3><a name="what-is-an-environment?"></a>What is an environment?</h3>
+
+See [Environments](doc:environments).
+
+<h3><a name="how-do-i-create-an-environment?"></a>How do I create an environment?</h3>
+
+See [Creating an Environment](creating-an-environment-1).
+
+<h3><a name="how-do-i-navigate-to-an-environment?"></a>How do I navigate to an environment?</h3>
+
+See [Navigating to an Environment](doc:navigating-to-an-environment).
+
+<h3><a name="how-do-i-add-servers-to-an-environment?"></a>How do I add servers to an environment?</h3>
+
+See [Adding Servers to an Environment](doc:adding-servers-to-an-environment).
+
+<h3><a name="how-do-i-remove-servers-from-an-environment?"></a>How do I remove servers from an environment?</h3>
+
+See [Removing Servers from an Environment](doc:removing-servers-from-an-environment).
+
+<h3><a name="how-do-i-deploy-to-an-environment?"></a>How do I deploy to an environment?</h3>
+
+See [Deploying to an Environment](doc:deploying-to-an-environment).
+
+<h3><a name="how-do-i-delete-an-environment?"></a>How do I delete an environment?</h3>
+
+See [Deleting an Environment](doc:deleting-an-environment).
+
+<h3><a name="how-do-rename-an-environnment?"></a>How do rename an environnment?</h3>
+
+At this time there is no way to rename an environment. You will have to delete the existing environment and create a new one with the new name.
+
+<h3><a name="how-do-i-share-an-environment-with-my-team?"></a>How do I share an environment with my team?</h3>
+
+
+<h3><a name="how-do-i-see-what-releases-are-deployed-to-an-environment?"></a>How do I see what releases are deployed to an environment?</h3>
+
+See [Viewing an Environments Deployments](doc:viewing-an-environments-deployments).
+
+<h3><a name="how-do-i-see-an-environments-deployments?"></a>How do I see an environments deployments?</h3>
+
+See [Viewing an Environments Deployments](doc:viewing-an-environments-deployments).
+
+<h3><a name="how-do-i-change-an-environment-description?"></a>How do I change an environment description?</h3>
+
+See [Environment Settings](doc:environment-settings).
+
+<h3><a name="how-do-i-setup-notifications-for-environment-deploys?"></a>How do I setup notifications for environment deploys?</h3>
+
+See [Environment Settings](doc:environment-settings).
+See [Notifications](doc:notifications).
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index).
+environments.md environments.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "ENVIRONMENTS"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+An environment exists as a child to an application. An environment is a collection of <i>like</i> servers for application deployments.
+When you deploy an application, you deploy it to an environment which contains 1 or more servers.
+An environments is specific to an application.
+
+<img src="/assets/images/distelli_environments.png">
+
+Environments fit into the Software Development Life Cycle (SDLC) process.
+For information on environment variables see [Environment Variables](doc:environment-variables).
+
+<h3><a name="environments"></a>Environments</h3>
+
+[Creating an Environment](doc:creating-an-environment-1)
+[Navigating to an Environment](doc:navigating-to-an-environment)
+[Adding Servers to an Environment](doc:adding-servers-to-an-environment)
+[Environment Settings](doc:environment-settings)
+[Deleting an Environment](doc:deleting-an-environment)
+[Removing Servers from an Environment](doc:removing-servers-from-an-environment)
+[Viewing an Environments Deployments](doc:viewing-an-environments-deployments)
+[Deploying to an Environment](doc:deploying-to-an-environment)
+[Restarting an Environment](doc:restarting-an-environment)
+[Terminating an Environment](doc:terminating-an-environment)
+[Environments FAQ](doc:environments-faq)
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+finding-a-release-id.md finding-a-release-id.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Finding a Release ID"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+To deploy a specific application release from the Distelli CLI you will need the release ID. You can list releases with the CLI or find the release in the Distelli WebUI.
+An application release ID is in the form of:
+
+{{< callout-code >}}
+v##
+{{< /callout-code >}}
+
+<ul>
+<li>[With the Distelli CLI](#distelli-cli).</li>
+<li>[With the Distelli WebUI](#distelli-webui).</li>
+</ul>
+
+<h3><a name="distelli-cli"></a>Distelli CLI</h3>
+
+The Distelli CLI provides [list](doc:distelli-cli#list) commands to list releases. To use this command you must have the [Distelli CLI](doc:distelli-cli) installed.
+The syntax to use this command is:
+
+{{< callout-code >}}
+distelli list releases -n APPLICATION_NAME
+{{< /callout-code >}}
+
+
+{{< callout-code >}}
+$ distelli list releases -n BashSimpleApp\n+---------------+------------+----------------------------------------+-------------+\n| App Name | Release Id | Created | Description |\n+---------------+------------+----------------------------------------+-------------+\n| BashSimpleApp | v1 | 2015-05-08 20:57:42 UTC (3 months ago) | Test1 |\n| BashSimpleApp | v2 | 2015-05-08 21:00:21 UTC (3 months ago) | Test2 |\n| BashSimpleApp | v3 | 2015-05-11 17:03:54 UTC (3 months ago) | Test3 |\n| BashSimpleApp | v4 | 2015-05-12 00:20:58 UTC (3 months ago) | Test4 |\n+---------------+------------+----------------------------------------+-------------+\n
+{{< /callout-code >}}
+
+
+<h3><a name="distelli-webui"></a>Distelli WebUI</h3>
+
+To find a specific release ID via the Distelli WebUI.
+<ol>
+<li>First [Navigate to the Application] that contains the release(doc:navigating-to-an-application).</li>
+<li>Click the <b>Releases</b> link.</li>
+<li>Locate the <b>Release</b> you wish to see its ID.</li>
+</ol>
+
+{{% callout-info %}}
+You can search for releases by tags or version. See [Searching for release tag or version](doc:searching-for-release-tag-or-version).
+{{% /callout-info %}}
+
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+finding-a-teams-distelli-username.md finding-a-teams-distelli-username.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Finding a Teams Username"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+Some interactions with Distelli teams requires you know the username of the team. For example creating an application in a team.
+
+<h3><a name="find-a-teams-distelli-username"></a>Find a Teams Distelli Username</h3>
+
+
+{{% callout-warning %}}
+These steps assume you are already a member of a team.
+{{% /callout-warning %}}
+
+<li>On the top right, hover your mouse over the word <b>Owner</b>.</li>
+</ol>
+
+{{% callout-warning %}}
+If you are currently in a team view, the word Owner will be replaced by the <b>team name</b>. Hover over that.
+{{% /callout-warning %}}
+
+
+<img src="/assets/images/webui_hover_teamname.png">
+
+In the above example team <b>jane_doe_team</b> has a username of <b>janedoe</b> .
+
+<h3><a name="product-documenation"></a>Product Documenation</h3>
+
+[Product Documentation](doc:product-documentation-index)
+finding-your-distelli-username.md finding-your-distelli-username.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Finding Your Distelli Username"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+Many interactions with Distelli require your Distelli username.
+
+<h3><a name="find-your-distelli-username"></a>Find your Distelli Username</h3>
+
+<ol>
+<li>Ensure you are [signed in](signing-in-to-distelli) to the Distelli WebUI.</li>
+<li>On the top right, hover your mouse over the word <b>Owner</b>.</li>
+</ol>
+
+<img src="/assets/images/webui_hover_username.png">
+
+You can find your Distelli username at the top of the list before the slash.
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+integrating-with-a-repository.md integrating-with-a-repository.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Integrating with a Repository"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+For full continuous integration (CI) and continuous deployment (CD) you will want to integrate your repository with Distelli. For more information on CI/CD see [Overview of CI/CD with Distelli](doc:overview-of-cicd-with-distelli).
+Doing so will allow you to attach Distelli applications to repositories and [enable auto build](doc:enabling-auto-build) and [auto deploy](doc:enabling-auto-deploy) features.
+
+<h3><a name="integrate-a-repository-with-distelli"></a>Integrate a Repository with Distelli</h3>
+
+The master settings for integrating with a repository can be found in your account settings. To change these settings:
+<ol>
+<li>Click on the <b>gear</b> icon in the top right of the Distelli WebUI.</li>
+<li>Click <b>Integrations</b> link on the left.</li>
+<li>Click the repository you wish to integrate with:</li>
+</ol>
+- Github
+- Bitbucket
+
+{{% callout-info %}}
+If you are already connected repository, the button will say \Disconnect REPO Account\. To disconnect (terminate) the integration, click the button.
+{{% /callout-info %}}
+
+{
+"type": "danger",
+"body": "If you disconnect a repository (i.e. Github or Bitbucket) that has repositories connected to applications in Distelli, the applications will no longer auto build when a repository check-in occurs."
+}
+[/block]
+<li>Click the "Connect REPO Account" button for the repository you wish to integrate with.</li>
+</ol>
+- <b>Bitbucket**
+- <b>Github**
+You may be prompted to login to the repository.
+You may be prompted to approve access to the repository.
+If you have integrated Distelli previously, you may not be prompted at all.
+Once you have approved the integration on the repository, they are integrated.
+
+<h3><a name="next"></a>Next</h3>
+
+Next steps may include:
+<ul>
+<li>[Creating an Application from a Repository](doc:creating-an-application-from-a-repository).</li>
+<li>[Connecting a Repository to an Application](doc:connecting-a-repository-to-an-application).</li>
+</ul>
+
+<h3><a name="remove-distelli-integration-from-github"></a>Remove Distelli Integration from Github</h3>
+
+To completely remove Distelli integration with Github:
+<ol>
+<li>Follow the steps above to disconnect Github from Distelli.</li>
+<li>Login to your Github account on [https://github.com](https://github.com).</li>
+<li>Go to the Gibhub <b>settings</b> page.</li>
+<li>On the Github settings page click the <b>Applications</b> link.</li>
+<li>Under Authorized applications, find Distelli Inc and click the <b>Revoke</b> button.</li>
+</ol>
+
+<h3><a name="remove-github-repository-webhooks-or-services"></a>Remove Github Repository Webhooks or Services</h3>
+
+To remove a webhook from a specific repository in Github:
+<ol>
+<li>Login to your Github account on [https://github.com](https://github.com).</li>
+<li>Navigate to the repository that has webhooks you wish to remove.</li>
+<li>Click <b>Settings</b> icon.</li>
+<li>Click the <b>Webhooks & Services</b> link.</li>
+<li>Remove the hook or service you wish.</li>
+</ol>
+
+<h3><a name="remove-distelli-integration-from-bitbucket"></a>Remove Distelli Integration from Bitbucket</h3>
+
+To completely remove Distelli integration with Bitbucket:
+<ol>
+<li>Follow the steps above to disconnect Bitbucket from Distelli.</li>
+<li>Login to your Bitbucket account on [https://bitbucket.org](https://bitbucket.org).</li>
+<li>Go to the Bitbucket <b>Manage account</b> page.</li>
+<li>On the Manage page click the <b>OAuth</b> link.</li>
+<li>Under OAuth integrated applications, find Distelli Inc and click the <b>Revoke</b> link.</li>
+</ol>
+
+<h3><a name="remove-bitbucket-repository-webhooks-or-services"></a>Remove Bitbucket Repository Webhooks or Services</h3>
+
+To remove a webhook from a specific repository in Bitbucket:
+<ol>
+<li>Login to your Bitbucket account on [https://bitbucket.org](https://bitbucket.org).</li>
+<li>Navigate to the repository that has webhooks you wish to remove.</li>
+<li>Click <b>Settings</b> icon.</li>
+<li>Click the <b>Webhooks</b> or <b>Services</b> link.</li>
+<li>Remove the hook or service you wish.</li>
+</ol>
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index).
+integrating-with-bitbucket.md integrating-with-bitbucket.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Integrating with Bitbucket"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+Bitbucket is a software repository hosting service that provides revision control.
+Integrating Github with Distelli provides continuous integration and continuous deployment. For more information see [Overview of CI/CD with Distelli](doc:overview-of-cicd-with-distelli).
+With Bitbucket integration you can create applications in Distelli from a Bitbucket repository and enable auto-builds when a change is checked into the repository.
+
+<h3><a name="integrate-with-bitbucket"></a>Integrate with Bitbucket</h3>
+
+Before beginning ensure you are using the correct team or individual account in Distelli. For more information see [Using a Team](doc:using-a-team).
+To enable Github integration, follow these steps.
+<ol>
+<li>In the Distelli WebUI click the <b>gear</b> icon at the top right.</li>
+<li>Click the <b>Integrations</b> link on the left.</li>
+<li>Click the <b>Bitbucket</b> button.</li>
+<li>Click the <b>Connect Bitbucket Account</b> button.</li>
+</ol>
+At this point, your browser will be directed to Bitbucket for you to authorize Distelli. If you are not already logged into Bitbucket, you will be prompted to.
+<li>Authorize Distelli in Bitbucket.</li>
+</ol>
+You have integrated your Bitbucket account with Distelli.
+
+<h3><a name="next"></a>Next</h3>
+
+See:
+<ul>
+<li>[Creating an Application from a Repository](doc:creating-an-application-from-a-repository).</li>
+<li>[Connecting a Repository to an Application](doc:connecting-a-repository-to-an-application).</li>
+</ul>
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+integrating-with-github.md integrating-with-github.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Integrating with Github"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+Github is a software repository hosting service that provides revision control and source code management.
+Integrating Github with Distelli provides continuous integration and continuous deployment. For more information see [Overview of CI/CD with Distelli](doc:overview-of-cicd-with-distelli).
+With Github integration you can create applications in Distelli from a Github repository and enable auto-builds when a change is checked into the repository.
+
+<h3><a name="integrate-with-github"></a>Integrate with Github</h3>
+
+Before beginning ensure you are using the correct team or individual account in Distelli. For more information see [Using a Team](doc:using-a-team).
+To enable Github integration, follow these steps.
+<ol>
+<li>In the Distelli WebUI click the <b>gear</b> icon at the top right.</li>
+<li>Click the <b>Integrations</b> link on the left.</li>
+<li>Click the <b>Github</b> button.</li>
+<li>Click the <b>Connect Github Account</b> button.</li>
+</ol>
+At this point, your browser will be directed to Gibhub for you to authorize Distelli. If you are not already logged into Gibhub, you will be prompted to.
+<li>Authorize Distelli in Github.</li>
+</ol>
+You have integrated your Github account with Distelli.
+
+<h3><a name="next"></a>Next</h3>
+
+See:
+<ul>
+<li>[Creating an Application from a Repository](doc:creating-an-application-from-a-repository).</li>
+<li>[Connecting a Repository to an Application](doc:connecting-a-repository-to-an-application).</li>
+</ul>
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+integrating-with-hipchat.md integrating-with-hipchat.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Integrating with HipChat"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+HipChat is a Web service for internal/private chat and messaging. Distelli integrates with HipChat and allows you to send notifications to HipChat.
+For more information on notifications in Distelli see [Notifications](doc:notifications-1).
+
+<h3><a name="integrate-with-hipchat"></a>Integrate with Hipchat</h3>
+
+Before beginning ensure you are using the correct team or individual account in Distelli. For more information see [Using a Team](doc:using-a-team).
+To enable HipChat integration, follow these steps.
+<ol>
+<li>In the Distelli WebUI click the <b>gear</b> icon at the top right.</li>
+<li>Click the <b>Integrations</b> link on the left.</li>
+<li>Click the <b>HipChat</b> button.</li>
+</ol>
+
+{{% callout-warning %}}
+You will need to obtain a HipChat API token here [https://www.hipchat.com/docs/apiv2](https://www.hipchat.com/docs/apiv2).
+{{% /callout-warning %}}
+
+<li>Click <b>Set Token</b> button.</li>
+</ol>
+You have setup your integration with HipChat.
+
+<h3><a name="next"></a>Next</h3>
+
+See [Notifications](doc:notifications-1) for setting up Slack notifications.
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation](doc:product-documentation-index).
+integrating-with-slack.md integrating-with-slack.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Integrating with Slack"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+Slack is a team collaboration tool and provides chat and messaging services. Distelli integrates with Slack and allows you to send notifications to Slack room(s).
+For more information on notifications in Distelli see [Notifications](doc:notifications-1).
+
+<h3><a name="integrate-with-slack"></a>Integrate with Slack</h3>
+
+Before beginning ensure you are using the correct team or individual account in Distelli. For more information see [Using a Team](doc:using-a-team).
+To enable Slack integration, follow these steps.
+<ol>
+<li>In the Distelli WebUI click the <b>gear</b> icon at the top right.</li>
+<li>Click the <b>Integrations</b> link on the left.</li>
+<li>Click the <b>Slack</b> button.</li>
+</ol>
+
+{{% callout-warning %}}
+You will need to obtain a Slack API token here [https://api.slack.com/web](https://api.slack.com/web).
+{{% /callout-warning %}}
+
+<li>Click <b>Set Token</b> button.</li>
+</ol>
+You have setup your integration with Slack.
+
+<h3><a name="next"></a>Next</h3>
+
+See [Notifications](doc:notifications-1) for setting up Slack notifications.
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation](doc:product-documentation-index)
+integrations-faq.md integrations-faq.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Integrations FAQ"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+
+<h3><a name="how-do-i-connect-my-github-account?"></a>How do I connect my github account?</h3>
+
+See [Integrating with Github](doc:integrating-with-github).
+
+<h3><a name="how-do-i-disconnect-my-github-account?"></a>How do I disconnect my github account?</h3>
+
+See [Integrating with Github](doc:integrating-with-github).
+
+<h3><a name="how-do-i-connect-my-bitbucket-account?"></a>How do I connect my bitbucket account?</h3>
+
+See [Integrating with Bitbucket](doc:integrating-with-bitbucket).
+
+<h3><a name="how-do-i-disconnect-my-bitbucket-account?"></a>How do I disconnect my bitbucket account?</h3>
+
+See [Integrating with Bitbucket](doc:integrating-with-bitbucket).
+
+<h3><a name="how-do-i-connect-my-slack-account?"></a>How do I connect my slack account?</h3>
+
+See [Integrating with Slack](doc:integrating-with-slack).
+
+<h3><a name="how-do-i-disconnect-my-slack-account?"></a>How do I disconnect my slack account?</h3>
+
+At this time you can not.
+
+<h3><a name="how-do-i-connect-my-hipchat-account?"></a>How do I connect my hipchat account?</h3>
+
+See [Integrating with Hipchat](doc:integrating-with-hipchat).
+
+<h3><a name="how-do-i-disconnect-my-hipchat-account?"></a>How do I disconnect my hipchat account?</h3>
+
+See [Integrating with Hipchat](doc:integrating-with-hipchat).
+integrations.md integrations.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "INTEGRATIONS"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+
+<h3><a name="integrations"></a>Integrations</h3>
+
+[Integrating with Bitbucket](doc:integrating-with-bitbucket)
+[Integrating with Github](doc:integrating-with-github)
+[Integrating with Hipchat](doc:integrating-with-hipchat)
+[Integrating with Slack](doc:integrating-with-slack)
+[Integrations FAQ](doc:integrations-faq)
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+linking-to-a-build-log-entry.md linking-to-a-build-log-entry.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Linking to a Build Log Entry"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+The build log contains useful information related to your build. It is also invaluable in troubleshooting. You can provide a link to a specific line in the build log.
+The build log can be found on the build page. To navigate to a build page:
+<ol>
+<li>Click <b>Builds</b> at the top of the Distelli WebUI.</li>
+<li>Click on a build to see the associated log.</li>
+</ol>
+
+<h3><a name="link-to-a-build-log-entry"></a>Link to a Build Log Entry</h3>
+
+In the build log, on the right is a sequence of line numbers. Each of these is an anchor link to that specific line that can be copied and shared with others.
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+navigating-to-an-application.md navigating-to-an-application.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Navigating to an Application"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+When you login to the Distelli WebUI you are initially taken to the applications page where you can find your application.
+
+<h3><a name="navigate-to-applications-page"></a>Navigate to Applications Page</h3>
+
+To get to the Applications page, click <b>Applications</b> link at the very top of the Distelli WebUI.
+
+<h3><a name="search-for-an-application"></a>Search for an Application</h3>
+
+From the applications page you can search for applications. Click in the <b>Search...</b> field to search by prefix for an application.
+Enter the initial prefix letters of an application name to search for it.
+
+<h3><a name="navigate-to-an-application"></a>Navigate to an Application</h3>
+
+Navigating to an application is as simple as clicking on the application name in the list of applications on the applications page.
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+navigating-to-an-environment.md navigating-to-an-environment.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Navigating to an Environment"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+How to navigate to an environment.
+Remember, an environment is a child to an application so you must first navigate to the application.
+
+<h3><a name="navigate-to-an-environment"></a>Navigate to an Environment</h3>
+
+<ol>
+<li>Login to the Distelli WebUI at [https://www.distelli.com/login](https://www.distelli.com/login).</li>
+<li>In the application list, click the <b>Application</b> name that contains the environment you wish to navigate to.</li>
+<li>Click the <b>Environments</b> link.</li>
+<li>Click the <b>Environment name</b>.</li>
+</ol>
+You have navigated to the environment.
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+navigating-to-a-release.md navigating-to-a-release.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Navigating to a Release"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+To interact with or view details of a release you must first navigate to the release.
+
+<h3><a name="navigate-to-a-release"></a>Navigate to a Release</h3>
+
+Releases are application specific. To see a release, you must:
+<ol>
+<li>Navigate to the application. See [Navigating to an Application](doc:navigating-to-an-application).</li>
+<li>From the application page, click the <b>Releases</b> link.</li>
+<li>From the application releases page release list click on the release you wish to navigate to.</li>
+</ol>
+You have navigated to a specific release.
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+notifications-1.md notifications-1.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "NOTIFICATIONS"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+Notifications are Distelli event driven messages sent to external receivers. This includes:
+<ul>
+<li>[eMail](doc:types-of-notifications#email)</li>
+<li>[HipChat](doc:types-of-notifications#hipchat)</li>
+<li>[Slack](doc:types-of-notifications#slack)</li>
+<li>[Team](doc:types-of-notifications#team)</li>
+</ul>
+
+<h3><a name="notifications"></a>Notifications</h3>
+
+[Types of Notifications](doc:types-of-notifications)
+[Creating 'Build begins' Notification](doc:creating-build-begins-notification)
+[Creating 'Build completes' Notification](doc:creating-build-completes-notification)
+[Creating 'Deploy begins' Notification](doc:creating-deploy-begins-notification)
+[Creating 'Deploy completes' Notification](doc:creating-deploy-completes-notification)
+[Notifications FAQ](doc:notifications-faq)
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+notifications-faq.md notifications-faq.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Notifications FAQ"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+
+<h3><a name="notifications-faq"></a>Notifications FAQ</h3>
+
+
+<h3><a name="how-do-i-create-a-notification?"></a>How do I create a notification?</h3>
+
+See [Notifications](doc:notifications-1)
+
+<h3><a name="what-types-of-notifications-are-there?"></a>What types of notifications are there?</h3>
+
+See [Types of Notifications](doc:types-of-notifications)
+password-recovery.md password-recovery.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Password Recovery"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+If you have lost, forgotten, or had stolen your password follow these instructions to recover the password.
+
+<h3><a name="password-recovery"></a>Password Recovery</h3>
+
+If you have lost or forgotten your password, you can go through the password recovery procedures with these steps.
+<ol>
+<li>Point your browser at [http://www.distelli.com](http://www.distelli.com).</li>
+<li>Click the <b>Sign In</b> link at the top right. (Sign in, not Sign up)</li>
+<li>Click the <b>Forgot your password?</b> link.</li>
+<li>Enter the <b>Email Address</b> you signed up for Distelli with.</li>
+<li>Click the <b>Send Reset Instructions</b> button.</li>
+</ol>
+You will be sent an email with a link to recover your password.
+<li>Click on the recovery link in your email.</li>
+<li><b>Enter a New Password</b>.</li>
+<li>Click the Change Password button.</li>
+</ol>
+You will now have a new known password.
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+product-documentation-index.md product-documentation-index.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Product Documentation Index"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+
+<h3><a name="topic-list"></a>Topic List</h3>
+
+[Accounts](doc:accounts)
+[Teams](doc:teams)
+[Applications](doc:applications)
+[Environments](doc:environments)
+[Releases](doc:releases)
+[Deployments](doc:deployments)
+[Builds](doc:builds)
+[Servers](doc:servers)
+[Integrations](doc:integrations)
+[Notifications](doc:notifications-1)
+
+<h3><a name="accounts"></a>Accounts</h3>
+
+[Accounts](doc:accounts)
+[Creating an Account](doc:creating-an-account1)
+[Signing in to Distelli](doc:signing-in-to-distelli)
+[Editing your Profile](doc:editing-your-profile)
+[Finding Your Distelli Username](doc:finding-your-distelli-username)
+[Password Recovery](doc:password-recovery)
+[Adding an Avatar to your Profile](doc:adding-a-gravatar-to-your-profile)
+[Account Settings](doc:account-settings)
+[Integrating with a Repository](doc:integrating-with-a-repository)
+[Accounts FAQ](doc:accounts-faq)
+
+<h3><a name="teams"></a>Teams</h3>
+
+[Teams](doc:teams)
+[Creating a Team](doc:creating-a-team)
+[Adding Members to a Team](doc:add-members-to-a-team)
+[Remove Members from a Team](doc:remove-members-from-a-team)
+[Using a Team](doc:using-a-team)
+[Viewing my Team Membership](doc:viewing-my-team-membership)
+[Finding a Teams Username](doc:finding-a-teams-distelli-username)
+[Adding Servers to a Team Account](doc:add-servers-to-a-team-account)
+[Creating Applications in a Team Account](doc:creating-applicaitons-in-a-team-account)
+[Pushing Applications in a Team Account](doc:pushing-applications-in-a-team-account)
+[Deploying Applications in a Team Account](doc:deploying-applications-in-a-team-account)
+[Deleting a Team](doc:deleting-a-team)
+[Teams FAQ](doc:teams-faq)
+
+<h3><a name="applications"></a>Applications</h3>
+
+[Applications](doc:applications)
+[Creating an Application](doc:creating-an-application-1)
+[Creating an Application from a Repository](doc:creating-an-application-from-a-repository)
+[Navigating to an Application](doc:navigating-to-an-application)
+[Viewing an Application](viewing-an-application)
+[Pushing an Application Release](doc:pushing-an-application-release)
+[Viewing Application Release](doc:viewing-application-release)
+[Deploying an Application](doc:deploying-an-application-1)
+[Restarting an Application](doc:restarting-an-application)
+[Terminating an Application](doc:terminating-an-application)
+[Viewing Application Deployments](doc:viewing-application-deployments)
+[Deleting an Application](doc:deleting-an-application)
+[Connecting a Repository to an Application](doc:connecting-a-repository-to-an-application)
+[Viewing an Application Repository](doc:viewing-an-application-repository)
+[Applications FAQ](doc:applications-faq)
+
+<h3><a name="environments"></a>Environments</h3>
+
+[Environments](doc:environments)
+[Creating an Environment](doc:creating-an-environment-1)
+[Navigating to an Environment](doc:navigating-to-an-environment)
+[Adding Servers to an Environment](doc:adding-servers-to-an-environment)
+[Environment Settings](doc:environment-settings)
+[Deleting an Environment](doc:deleting-an-environment)
+[Removing Servers from an Environment](doc:removing-servers-from-an-environment)
+[Viewing an Environments Deployments](doc:viewing-an-environments-deployments)
+[Deploying to an Environment](doc:deploying-to-an-environment)
+[Restarting an Environment](doc:restarting-an-environment)
+[Terminating an Environment](doc:terminating-an-environment)
+[Environments FAQ](doc:environments-faq)
+
+<h3><a name="releases"></a>Releases</h3>
+
+[Releases](doc:releases)
+[Deploying a Release](doc:deploying-a-release)
+[Navigating to a Release](doc:navigating-to-a-release)
+[Viewing Release Details](doc:viewing-release-details)
+[Finding a Release ID](doc:finding-a-release-id)
+[Searching for Release Tag or Version](doc:searching-for-release-tag-or-version)
+[Creating Release Notes](doc:creating-release-notes)
+[Editing Release Notes](doc:editing-release-notes)
+[Viewing Release Notes](doc:viewing-release-notes)
+[Releases FAQ](doc:releases-faq)
+
+<h3><a name="deployments"></a>Deployments</h3>
+
+[Deployments](doc:deployments)
+[Enabling Auto Deploy](doc:enabling-auto-deploy)
+[Viewing a Deployment](doc:viewing-a-deployment)
+[Deployments FAQ](doc:deployments-faq)
+
+<h3><a name="builds"></a>Builds</h3>
+
+[Builds](doc:builds)
+[Starting a Build](doc:starting-a-build)
+[Enabling Auto Build](doc:enabling-auto-build)
+[Viewing Builds](doc:viewing-builds)
+[Specifying Build Variables](doc:specifying-build-variables)
+[Rebuilding a Build](doc:rebuilding-a-build)
+[Cancelling a Build](doc:cancelling-a-build)
+[Downloading a Build Log](doc:downloading-a-build-log)
+[Linking to a Build Log Entry](doc:linking-to-a-build-log-entry)
+[Building with distelli-manifest.yml PreRelease](doc:building-with-distelli-manifestyml-prerelease)
+[Building with Travis .travis.yml](doc:building-with-travis-travisyml)
+[Builds FAQ](doc:builds-faq)
+
+<h3><a name="servers"></a>Servers</h3>
+
+[Servers](doc:servers)
+[Adding a new Server](doc:adding-a-new-server)
+[Viewing a Server](doc:viewing-a-server)
+[Deleting a Server](doc:deleting-a-server)
+[Servers FAQ](doc:servers-faq)
+[Provisioning EC2 Servers](doc:provisioning-ec2-servers)
+[Starting an EC2 Instance](doc:starting-an-ec2-instance)
+[Stopping an EC2 Instance](doc:stopping-an-ec2-instance)
+[Rebooting an EC2 Instance](doc:rebooting-an-ec2-instance)
+[Terminating an EC2 Instance](doc:terminating-an-ec2-instance)
+[Servers FAQ](doc:servers-faq)
+
+<h3><a name="integrations"></a>Integrations</h3>
+
+[Integrating with Bitbucket](doc:integrating-with-bitbucket)
+[Integrating with Github](doc:integrating-with-github)
+[Integrating with Hipchat](doc:integrating-with-hipchat)
+[Integrating with Slack](doc:integrating-with-slack)
+[Integrations FAQ](doc:integrations-faq)
+
+<h3><a name="notifications"></a>Notifications</h3>
+
+[Types of Notifications](doc:types-of-notifications)
+[Creating 'Build begins' Notification](doc:creating-build-begins-notification)
+[Creating 'Build completes' Notification](doc:creating-build-completes-notification)
+[Creating 'Deploy begins' Notification](doc:creating-deploy-begins-notification)
+[Creating 'Deploy completes' Notification](doc:creating-deploy-completes-notification)
+[Notifications FAQ](doc:notifications-faq)
+provisioning-ec2-servers.md provisioning-ec2-servers.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Provisioning EC2 Servers"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+Using Distelli you can provision EC2 instances (servers) and have them immediately available for deploys and builds.
+
+{{% callout-danger %}}
+Provisioning and launching EC2 instances may incur charges on your Amazon AWS account
+{{% /callout-danger %}}
+
+
+<h3><a name="provision-an-ec2-instance"></a>Provision an EC2 Instance</h3>
+
+<ol>
+<li>Click the <b>Servers</b> link at the top of the Distelli WebUI.</li>
+<li>Click the <b>New Server</b> button at the top right.</li>
+</ol>
+This will begin the new server workflow.
+<li>Click the <b>Launch an EC2 Instance</b> button.</li>
+<li>Enter your EC2 credential</li>
+</ol>
+For more information on setting up your Amazon Access Key see <a href="http://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSGettingStartedGuide/AWSCredentials.html" target="_blank">http://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSGettingStartedGuide/AWSCredentials.html</a>.
+
+{{% callout-danger %}}
+Ensure the AWS user has the correct permission policy applied that allows the user to create EC2 instances. If the credentials do not have EC2 permissions you will get an \Invalid Credentials\ error message in Distelli.
+{{% /callout-danger %}}
+
+<li>Choose your instance type from the list of possible instances.</li>
+<li>Choose your OS Image.</li>
+<li>Choose your Virtual Private Cloud (vpc).</li>
+<li>Chose your subnet</li>
+</ol>
+
+{{% callout-danger %}}
+The EC2 instance you provision must have Internet access. This is easy to provision by ensuring your subnet provides an associated public IP address. For more information see <a href=\http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/vpc-ip-addressing.html target=\_blank\>http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/vpc-ip-addressing.html</a>.
+{{% /callout-danger %}}
+
+<li> Choose your security group.</li>
+<li> Click <b>Done</b>.</li>
+<li> Select the number of EC2 instances you wish to provision.</li>
+</ol>
+
+{{% callout-danger %}}
+Remember, provisioning EC2 servers may incur charges.
+{{% /callout-danger %}}
+
+Your instances are being provisioned.
+<li> Click <b>Go to Servers</b> button.</li>
+</ol>
+
+{{% callout-warning %}}
+EC2 instances take a bit of time to completely provision (come up) and communicate on the Internet. Be patient. If you are waiting more than 10 minutes, there may be a problem. Are you sure the subnet you chose provides Internet access to the instance?
+{{% /callout-warning %}}
+
+{
+"type": "warning",
+"body": "If you run into trouble, you can inspect and terminate the instances from the EC2 console. <a href=\"https://console.aws.amazon.com/ec2\" target=\"_blank\">https://console.aws.amazon.com/ec2</a>"
+}
+[/block]
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+pushing-an-application-release.md pushing-an-application-release.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Pushing an Application Release"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+This document discusses using the Distelli CLI to push your application. For information on using Distelli's continuous integration (CI) features see [Overview of CI/CD with Distelli](doc:overview-of-cicd-with-distelli).
+You must push an application to Distelli to create a release for deployment.
+When [integrating with a repository](doc:connecting-a-repository-to-an-application) a push is initiated by the build server. A release is created after successful builds and tests.
+
+<h3><a name="application-manifest"></a>Application Manifest</h3>
+
+
+{{% callout-warning %}}
+This requires that the application was already created in the Distelli account. See [Creating an Application](creating-an-application-1)
+{{% /callout-warning %}}
+
+The first line of the distelli-manifest.yml must be:
+
+{{< callout-code >}}
+USERNAME/APPLICATION_NAME:
+{{< /callout-code >}}
+
+
+{{< callout-code >}}
+jdoe/SimpleApp:\n Env:\n - EXAMPLE: '\This is an example manifest environment variable.\'\n PkgInclude:\n - application.sh\n Exec:\n - './application.sh'
+{{< /callout-code >}}
+
+The application name must match the application name in Distelli.
+
+<h3><a name="push-a-release"></a>Push a Release</h3>
+
+To push a release of an application you must use the [Distelli CLI](doc:distelli-cli). First make sure you are logged into the CLI by using the ```distelli login``` command.
+
+{{< callout-code >}}
+$ distelli login\n\nEmail: jdoe@distelli.com\nPassword:
+{{< /callout-code >}}
+
+
+{{< callout-code >}}
+jdoe@HostA:~/SimpleApp$ distelli push\n Packaged 1 files in 1 directories\n Pushing App: SimpleApp\n Uploading Bundle: [==========] 100%\n\n Creating Release... DONE
+{{< /callout-code >}}
+
+{
+"type": "basic",
+"title": "Details of a Push"
+}
+[/block]
+When doing a ```distelli push``` the following occurs:
+<ul>
+<li>The distelli CLI will open and look in the distelli-manifest.yml.</li>
+<li>Any steps specified in the [PreRelease](doc:distelli-manifest#prerelease) section will be executed</li>
+<li>The manifest [PkgInclude](doc:distelli-manifest#pkginclude) and [PkgExclude](doc:distelli-manifest#pkgexclude) sections will define what, if any, files to bundle into the release.</li>
+<li>The release files will be tar'd and gzip'd into a [bundle](doc:distelli-bundle-1).</li>
+<li>The bundle will be uploaded to the distelli account or the [configured AWS S3](doc:using-amazon-s3-bucket) bucket securely.</li>
+<li>The application release number will be incremented.</li>
+<li>A new release will be created.</li>
+<li>Who created the release will be tracked.</li>
+<li>When the release was created will be tracked.</li>
+</ul>
+You can see the Release in the Distelli WebUI under the application. Or you can use the [Distelli CLI list](doc:distelli-cli#list) command to list the release.
+
+<h3><a name="also-see"></a>Also See</h3>
+
+[Pushing Applications in a Team Account](doc:pushing-applications-in-a-team-account)
+[Distelli CLI push Reference](doc:distelli-cli#push)
+[Distelli Manifest Reference Guide](doc:distelli-manifest)
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+pushing-applications-in-a-team-account.md pushing-applications-in-a-team-account.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Pushing Applications in a Team Account"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+Once you are a member of a team, you can create, bundle, push, and deploy applications in the team account using the [Distelli CLI](doc:distelli-cli).
+Also see [Pushing an Application Release](doc:pushing-an-application-release).
+
+<h3><a name="push-application-in-a-team"></a>Push Application in a Team</h3>
+
+
+{{% callout-warning %}}
+This requires that the application was already created in the team account. See [Creating Applications in a Team Account](doc:creating-applications-in-a-team-account)
+{{% /callout-warning %}}
+
+The first line of the distelli-manifest.yml must be:
+
+{{< callout-code >}}
+TEAM_USERNAME/APPLICATION_NAME:
+{{< /callout-code >}}
+
+
+{{< callout-code >}}
+exampleprojectx/SimpleApp:\n Env:\n - EXAMPLE: '\This is an example manifest environment variable.\'\n PkgInclude:\n - application.sh\n Exec:\n - './application.sh'
+{{< /callout-code >}}
+
+
+<h3><a name="push-a-release"></a>Push a Release</h3>
+
+To push a release of an application you must use the [Distelli CLI](doc:distelli-cli). You can execute the ```distelli push``` command. This should be done from the directory where the distelli-manifest.yml file is.
+
+{{< callout-code >}}
+$ distelli push\n Packaged 1 files in 1 directories\n Pushing App: SimpleApp\n Uploading Bundle: [==========] 100%\n\n Creating Release... DONE
+{{< /callout-code >}}
+
+{
+"type": "basic",
+"title": "Details of a Push"
+}
+[/block]
+When doing a ```distelli push``` the following occurs:
+<ul>
+<li>The distelli CLI will open and look in the distelli-manifest.yml.</li>
+<li>The manifest PkgInclude and PkgExclude sections will define what, if any, files to bundle into the release.</li>
+<li>The release files will be tar'd and gzip'd into a bundle.</li>
+<li>The bundle will be uploaded to the distelli account or the configured AWS S3 bucket securely.</li>
+<li>The application release number will be incremented.</li>
+<li>A new release will be created.</li>
+<li>Who created the release will be tracked.</li>
+<li>When the release was created will be tracked.</li>
+</ul>
+You can see the Release in the Distelli WebUI under the application. Or you can use the [Distelli CLI list](doc:distelli-cli#list) command to list the release.
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation](doc:product-documentation-index)
+rebooting-an-ec2-instance.md rebooting-an-ec2-instance.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Rebooting an EC2 Instance"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+An EC2 server that has been provisioned by Distelli can be managed by Distelli. In particular you can:
+<ul>
+<li>[Provision EC2 Servers](doc:provisioning-ec2-servers) </li>
+<li>[Start an EC2 Instance](doc:starting-an-ec2-instance) </li>
+<li>[Stop an EC2 Instance](doc:stopping-an-ec2-instance) </li>
+<li>[Terminate an EC2 Instance](doc:terminating-an-ec2-instance) </li>
+<li>[Reboot an EC2 Instance](doc:rebooting-an-ec2-instance)</li>
+</ul>
+
+<h3><a name="reboot-an-ec2-instance"></a>Reboot an EC2 Instance</h3>
+
+You can only reboot started EC2 instances.
+<ol>
+<li>Click <b>Servers</b> link from the to[p of the Distelli WebUI.</li>
+<li>Find the server you wish to reboot and click the server link.</li>
+</ol>
+This will take you to the server page.
+<li>Click the blue gear icon on the right.</li>
+<li>Click the <b>Reboot</b> button.</li>
+</ol>
+Your server is now rebooting.
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+rebuilding-a-build.md rebuilding-a-build.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Rebuilding a Build"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+You can rebuild a build from the build list page.
+
+<h3><a name="rebuild-a-build"></a>Rebuild a Build</h3>
+
+To enqueue a new build from an existing build:
+<ol>
+<li>Click the <b>Builds</b> link at the top of the Distelli WebUI.</li>
+<li>Navigate through the list to the build you wish to rebuild.</li>
+<li>Click the <b>X</b> on the right in the build panel.</li>
+</ol>
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+releases-faq.md releases-faq.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Releases FAQ"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+
+<h3><a name="how-do-i-view-a-release-description?"></a>How do I view a release description?</h3>
+
+See [Viewing Release Details](doc:viewing-release-details).
+
+<h3><a name="how-do-i-edit-a-release-description?"></a>How do I edit a release description?</h3>
+
+See [Viewing Release Details](doc:viewing-release-details).
+
+<h3><a name="how-do-i-remove-a-release-description?"></a>How do I remove a release description?</h3>
+
+See [Viewing Release Details](doc:viewing-release-details).
+
+<h3><a name="how-do-i-create-release-notes?"></a>How do I create release notes?</h3>
+
+See [Creating Release Notes](doc:creating-release-notes).
+
+<h3><a name="how-do-i-view-release-notes?"></a>How do I view release notes?</h3>
+
+See [Viewing Release Notes](doc:viewing-release-notes).
+
+<h3><a name="how-do-i-edit-release-notes?"></a>How do I edit release notes?</h3>
+
+See [Editing Release Notes](doc:editing-release-notes).
+
+<h3><a name="how-do-i-search-for-releases?"></a>How do I search for releases?</h3>
+
+See [Searching for Release Tag or Version](doc:searching-for-release-tag-or-version).
+
+<h3><a name="how-do-i-see-who-created-a-release?"></a>How do I see who created a release?</h3>
+
+
+<h3><a name="how-do-i-see-when-a-release-was-created?"></a>How do I see when a release was created?</h3>
+
+releases.md releases.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "RELEASES"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+Releases are Distelli bundled packages of software that include build, test, and deployment instructions.
+
+<h3><a name="releases"></a>Releases</h3>
+
+[Deploying a Release](doc:deploying-a-release)
+[Navigating to a Release](doc:navigating-to-a-release)
+[Viewing Release Details](doc:viewing-release-details)
+[Finding a Release ID](doc:finding-a-release-id)
+[Searching for Release Tag or Version](doc:searching-for-release-tag-or-version)
+[Creating Release Notes](creating-release-notes)
+[Adding Release Notes](adding-release-notes)
+[Viewing Release Notes](doc:viewing-release-notes)
+[Releases FAQ](doc:releases-faq)
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+remove-members-from-a-team.md remove-members-from-a-team.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Remove Members from a Team"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+You can remove members from your team.
+
+<h3><a name="remove-a-team-member"></a>Remove a Team Member</h3>
+
+<ol>
+<li>While signed in to the Distelli WebUI click the <b>gear icon</b> on the top right.</li>
+</ol>
+This will take you to your settings page.
+<li>Click the <b>Teams</b> link on the left.</li>
+<li>For the team you want to remove members from, click the <b>Edit</b> link on the right.</li>
+<li>For the member you want to remove click the <b>X Delete</b> link on the right.</li>
+</ol>
+A dialog will prompt you "Are you sure you want to remove USER from TEAM?"
+<li>Click the <b>Yes</b> button</li>
+</ol>
+The member is now removed from the group.
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+removing-servers-from-an-environment.md removing-servers-from-an-environment.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Removing Servers from an Environment"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+You can remove servers from an environment. This will not remove the server from your Distelli account and you can add it to the same or different environment.
+
+<h3><a name="remove-a-server"></a>Remove a Server</h3>
+
+<ol>
+<li>In the Distelli WebUI navigate to the Environment you wish to remove server(s) from.</li>
+<li>Click the <b>Servers</b> link.</li>
+<li>Click the <b>Remove Servers</b> link.</li>
+<li>In the list find the <b>server(s)</b> you want to remove and click the checkbox on the right.</li>
+</ol>
+
+{{% callout-info %}}
+You can select multiple servers across multiple pages.
+{{% /callout-info %}}
+
+You have successfully removed server(s).
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+restarting-an-application.md restarting-an-application.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Restarting an Application"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+A restart will stop the existing application process that was started with a manifest Exec section. Then start the process again.
+During a restart, the following distelli-manifest.yml sections will be processed in this order.
+<ol>
+<li>PreRestart</li>
+<li>PreStart</li>
+<li>Start or Exec</li>
+<li>PostStart</li>
+<li>PostRestart</li>
+</ol>
+For more information see:
+<ul>
+<li>[Distelli Manifest](doc:distelli-manifest) </li>
+<li>[Deployment Types](doc:deployment-types) </li>
+</ul>
+
+<h3><a name="restart-an-application"></a>Restart an Application</h3>
+
+Applications are restarted on servers in an environment. To restart an application:
+<ol>
+<li>Navigate to the application that is to be restarted. [Navigating to an Application](doc:navigating-to-an-application) </li>
+<li>Navigate to the environment that is to be restarted. [Navigating to an Environment](doc:navigating-to-an-environment) </li>
+<li>At the top right click the <b>Restart</b> icon.</li>
+</ol>
+
+<img src="/assets/images/drt.png">
+
+You will be presented with a Restart dialog where you can adjust the stagger settings.
+<li>Click <b>Restart</b>.</li>
+</ol>
+The application is being restarted on the servers in the environment.
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+restarting-an-environment.md restarting-an-environment.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Restarting an Environment"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+You can restart the application deployed to an environment.
+
+<h3><a name="restart-an-environment"></a>Restart an Environment</h3>
+
+See [Restarting an Application](doc:restarting-an-application)
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+searching-for-release-tag-or-version.md searching-for-release-tag-or-version.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Searching for Release Tag or Version"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+Releases can be searched for by release version or tag.
+
+<h3><a name="search-for-release-by-tag"></a>Search for Release by Tag</h3>
+
+To search for a release by its tag:
+<ol>
+<li>Navigate to the main applications list in the Distelli WebUI by clicking the <b>Applications</b> link at the top of the WebUI.</li>
+<li>Find the application you wish to search for releases by tag and expand the application by clicking its <b>+</b> (plus) sign.</li>
+<li>Click the <b>Releases</b> link.</li>
+<li>In the search field that says <b>By Version or Tag</b> enter the tag you wish to search for.</li>
+</ol>
+You have successfully search for a release by tag.
+
+<img src="/assets/images/webui_search_for_release_by.png">
+
+
+<h3><a name="search-for-release-by-version"></a>Search for Release by Version</h3>
+
+To search for a release by its version:
+<ol>
+<li>Navigate to the main applications list in the Distelli WebUI by clicking the <b>Applications</b> link at the top of the WebUI.</li>
+<li>Find the application you wish to search for releases by version and expand the application by clicking its <b>+</b> (plus) sign.</li>
+<li>Click the <b>Releases</b> link.</li>
+<li>In the search field that says <b>By Version or Tag</b> enter the version you wish to search for.</li>
+</ol>
+You have successfully search for a release by version.
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+servers-faq.md servers-faq.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Servers FAQ"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+
+<h3><a name="what-is-a-server?"></a>What is a server?</h3>
+
+See [Servers](doc:servers).
+
+<h3><a name="how-do-i-delete-a-server?"></a>How do I delete a server?</h3>
+
+See [Deleting a Server](doc:deleting-a-server).
+
+<h3><a name="how-do-i-add-a-server-to-distelli?"></a>How do I add a server to Distelli?</h3>
+
+See [Adding a New Server](doc:adding-a-new-server).
+
+<h3><a name="how-do-i-find-my-server-id?"></a>How do I find my server ID?</h3>
+
+
+<h3><a name="how-do-i-automate-adding-a-server-to-distelli?"></a>How do I automate adding a server to Distelli?</h3>
+
+See:
+<ul>
+<li>[Distelli distelli.yml Usage](doc:distelli-distelliyml-usage).</li>
+<li>[Auto Deploy from your CI Platform](doc:auto-deploy-from-your-ci-platform).</li>
+</ul>
+
+<h3><a name="how-do-i-mark-a-server-as-a-build-server?"></a>How do I mark a server as a build server?</h3>
+
+See [Using your own Build Server](doc:using-your-own-build-server).
+
+<h3><a name="how-do-i-build-on-my-own-server?"></a>How do I build on my own server?</h3>
+
+See [Using your own Build Server](doc:using-your-own-build-server).
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+servers.md servers.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "SERVERS"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+Servers, in Distelli, are used for deployments and builds.
+A server is either a physical or a virtual machine instance running a single copy of an OS, which we identify via a unique host name. These servers may, for example, be on your desktop, in a co-location facility or somewhere in the cloud.
+
+<h3><a name="servers"></a>Servers</h3>
+
+[Adding a New Server](doc:adding-a-new-server)
+[Viewing a Server](doc:viewing-a-server)
+[Deleting a Server](doc:deleting-a-server)
+[Provisioning EC2 Servers](doc:provisioning-ec2-servers)
+[Starting an EC2 Instance](doc:starting-an-ec2-instance)
+[Stopping an EC2 Instance](doc:stopping-an-ec2-instance)
+[Rebooting an EC2 Instance](doc:rebooting-an-ec2-instance)
+[Terminating an EC2 Instance](doc:terminating-an-ec2-instance)
+[Servers FAQ](doc:servers-faq)
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+signing-in-to-distelli.md signing-in-to-distelli.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Signing in to Distelli"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+To use the Distelli WebUI you must sign in.
+
+<h3><a name="signing-in-to-distelli"></a>Signing in to Distelli</h3>
+
+Once you have [Created a Distelli Account](doc:creating-an-account), you can sign in at anytime via the WebUI.
+<ol>
+<li>Point your browser at http://www.distelli.com. </li>
+<li>Click the <b>Sign In</b> link at the top right. (Sign in, not Sign up)</li>
+<li>Enter your <b>Email</b> and <b>Password</b> you used to sign up with Distelli.</li>
+<li>Click the <b>Sign In</b> button.</li>
+</ol>
+You are now signed in.
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+specifying-build-variables.md specifying-build-variables.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Specifying Build Variables"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+Build environment variables can be specified:
+<ul>
+<li>[In the application settings page](#build-variables-in-application-settings).</li>
+<li>[During new application creation workflow](#build-variables-in-new-application-workflow).</li>
+</ul>
+For more information on build environment variables see [Environment Variables](doc:environment-variables#distelli-specific-build-variables).
+
+<h3><a name="build-variables-in-application-settings"></a>Build Variables in Application Settings</h3>
+
+To view, set, edit, or delete build environment variables:
+<ol>
+<li>Click the <b>Applications</b> link from the top of the Distelli WebUI.</li>
+<li>Navigate to the application that you want to view the build environment variables.</li>
+<li>Click <b>Settings</b> link.</li>
+</ol>
+
+{{% callout-info %}}
+The <b>Automatically build this branch when a new commit is pushed</b> option must be enabled to view the build environment variables.
+{{% /callout-info %}}
+
+Here you can view, set, edit, or delete the variables.
+Build environment variables syntax:
+
+{{< callout-code >}}
+KEY=value
+{{< /callout-code >}}
+
+{
+"type": "basic",
+"title": "Build Variables in New Application Workflow"
+}
+[/block]
+You can configure build environment variables when creating a new application during the new application workflow. For more information on creating an application with the new application workflow see [Creating an Application from a Repository](doc:creating-an-application-from-a-repository).
+During the new application workflow [step 6 - Finish Up](doc:creating-an-application-from-a-repository#6-finish-up).
+Click on the <b>Build Configuration</b> link and you will be presented with a build configuration window that has a build environment variables input textbox.
+Here you can view, set, edit, or delete the variables.
+Build environment variables syntax:
+
+{{< callout-code >}}
+KEY=value
+{{< /callout-code >}}
+
+{
+"type": "basic",
+"title": "Distelli Specific Build Environment Variables"
+}
+[/block]
+For more information on Distelli specific build environment variables see [Environment Variables](doc:environment-variables#Distelli-specific-build-variables).
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+starting-a-build.md starting-a-build.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Starting a Build"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+Builds are enqueued when an application is integrated with a software repository and there is a commit change to that repository.
+If a build is successful and:
+<ul>
+<li>[auto deploy](doc:enabling-auto-deploy) is enabled,</li>
+<li>the auto deploy environment has 1 or more servers,</li>
+</ul>
+A deploy task will be enqueued.
+
+<h3><a name="start-a-build"></a>Start a Build</h3>
+
+To start a build, commit a change to the repository that is integrated with an application in Distelli.
+For more information see:
+<ul>
+<li>[Enabling Auto Build](doc:enabling-auto-build) </li>
+<li>[Connecting a Repository to an Application](doc:connecting-a-repository-to-an-application) </li>
+<li>[Creating an Application from a Repository](creating-an-application-from-a-repository)</li>
+</ul>
+
+<h3><a name="rebuild-a-build"></a>Rebuild a Build</h3>
+
+Another way to start a build is to rebuild from an existing build in the build list page. See [Rebuilding a Build](doc:rebuilding-a-build).
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+starting-an-ec2-instance.md starting-an-ec2-instance.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Starting an EC2 Instance"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+An EC2 server that has been provisioned by Distelli can be managed by Distelli. In particular you can:
+<ul>
+<li>[Provision EC2 Servers](doc:provisioning-ec2-servers) </li>
+<li>[Start an EC2 Instance](doc:starting-an-ec2-instance) </li>
+<li>[Stop an EC2 Instance](doc:stopping-an-ec2-instance) </li>
+<li>[Terminate an EC2 Instance](doc:terminating-an-ec2-instance) </li>
+<li>[Reboot an EC2 Instance](doc:rebooting-an-ec2-instance)</li>
+</ul>
+
+<h3><a name="start-an-ec2-instance"></a>Start an EC2 Instance</h3>
+
+This assume the EC2 instance has been previously stopped. You can not start a running EC2 instance. It is already started.
+<ol>
+<li>Click <b>Servers</b> link from the to[p of the Distelli WebUI.</li>
+<li>Find the server you wish to start and click the server link.</li>
+</ol>
+This will take you to the server page.
+<li>Click the blue gear icon on the right.</li>
+<li>Click the <b>Start</b> button.</li>
+</ol>
+
+{{% callout-warning %}}
+If the EC2 instance is already started, there will be no start button.
+{{% /callout-warning %}}
+
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+stopping-an-ec2-instance.md stopping-an-ec2-instance.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Stopping an EC2 Instance"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+An EC2 server that has been provisioned by Distelli can be managed by Distelli. In particular you can:
+<ul>
+<li>[Provision EC2 Servers](doc:provisioning-ec2-servers) </li>
+<li>[Start an EC2 Instance](doc:starting-an-ec2-instance) </li>
+<li>[Stop an EC2 Instance](doc:stopping-an-ec2-instance) </li>
+<li>[Terminate an EC2 Instance](doc:terminating-an-ec2-instance) </li>
+<li>[Reboot an EC2 Instance](doc:rebooting-an-ec2-instance)</li>
+</ul>
+
+<h3><a name="stop-an-ec2-instance"></a>Stop an EC2 Instance</h3>
+
+This assume the EC2 instance has been previously started. You can not stop an already stopped EC2 instance.
+<ol>
+<li>Click <b>Servers</b> link from the to[p of the Distelli WebUI.</li>
+<li>Find the server you wish to stop and click the server link.</li>
+</ol>
+This will take you to the server page.
+<li>Click the blue gear icon on the right.</li>
+<li>Click the <b>Stop</b> button.</li>
+</ol>
+
+{{% callout-warning %}}
+If the EC2 instance is already stopped there will be no stop button.
+{{% /callout-warning %}}
+
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+teams-faq.md teams-faq.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Teams FAQ"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+
+<h3><a name="teams-faq"></a>Teams FAQ</h3>
+
+Distelli Teams - Frequent Asked Questions.
+
+<h3><a name="what-is-a-distelli-team?"></a>What is a Distelli team?</h3>
+
+See [Teams](doc:teams).
+
+<h3><a name="how-do-i-create-a-team?"></a>How do I create a team?</h3>
+
+See [Creating a Team](doc:creating-a-team).
+
+<h3><a name="how-do-i-add-members-to-my-distelli-team?"></a>How do I add members to my Distelli team?</h3>
+
+See [Add Members to a Team](doc:add-members-to-a-team).
+
+<h3><a name="how-do-i-remove-members-from-a-team"></a>How do I remove members from a Team</h3>
+
+See [Remove Members from a Team](doc:remove-members-from-a-team).
+
+<h3><a name="how-do-i-interact-with-a-team-i-am-a-member-of?"></a>How do I interact with a team I am a member of?</h3>
+
+See [Using a Team](doc:using-a-team).
+
+<h3><a name="are-distelli-users-notified-when-they-have-been-added-or-removed-from-a-team?"></a>Are Distelli users notified when they have been added or removed from a team?</h3>
+
+No. At this time there is no notification sent.
+
+<h3><a name="how-do-i-add-a-server-to-a-team?"></a>How do I add a server to a team?</h3>
+
+See [Adding Servers to a Team](doc:add-servers-to-a-team-account).
+
+<h3><a name="how-do-i-create-an-application-in-a-team?"></a>How do I create an application in a team?</h3>
+
+See [Creating Applications in a Team](creating-applications-in-a-team-account).
+
+<h3><a name="how-do-i-push-applications-in-a-team?"></a>How do I push applications in a team?</h3>
+
+See [Pushing Applications in a Team Account](doc:pushing-applications-in-a-team-account).
+
+<h3><a name="how-do-i-deploy-applications-in-a-team?"></a>How do I deploy applications in a team?</h3>
+
+See [Deploying Applications in a Team Account](doc:deploying-applications-in-a-team-account).
+
+<h3><a name="how-do-i-see-what-teams-i-am-on?"></a>How do I see what teams I am on?</h3>
+
+See [Viewing my Team Membership](doc:viewing-my-team-membership).
+
+<h3><a name="how-can-i-remove-myself-from-a-team?"></a>How can I remove myself from a team?</h3>
+
+At this time, only the owner of the team can add or remove members.
+
+<h3><a name="how-do-i-use-a-team?"></a>How do I use a team?</h3>
+
+See [Using a Team](doc:using-a-team).
+
+<h3><a name="how-do-i-delete-my-team?"></a>How do I delete my team?</h3>
+
+See [Deleting a Team](doc:deleting-a-team).
+
+<h3><a name="how-do-i-see-what-distelli-username-i-use-for-a-team?"></a>How do I see what Distelli username I use for a team?</h3>
+
+See [Finding a Teams Username](doc:finding-a-teams-distelli-username).
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation](doc:product-documentation-index).
+teams.md teams.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "TEAMS"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+A team allows you to grant access to your Distelli Account. This includes the applications, environments, servers, and more in your Distelli account. The members of your team must also have a Distelli accounts to be added to the team.
+
+<h3><a name="teams"></a>Teams</h3>
+
+[Creating a Team](doc:creating-a-team)
+[Adding Members to a Team](doc:add-members-to-a-team)
+[Remove Members from a Team](doc:remove-members-from-a-team)
+[Using a Team](doc:using-a-team)
+[Viewing my Team Membership](doc:viewing-my-team-membership)
+[Finding a Teams Username](doc:finding-a-teams-distelli-username)
+[Adding Servers to a Team](doc:add-servers-to-a-team-account)
+[Creating Applications in a Team](doc:creating-applications-in-a-team-account)
+[Pushing Applications in a Team Account](doc:pushing-applications-in-a-team-account)
+[Deploying Applications in a Team Account](doc:deploying-applications-in-a-team-account)
+[Deleting a Team](doc:deleting-a-team)
+[Teams FAQ](doc:teams-faq)
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+terminating-an-application-1.md terminating-an-application-1.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Terminating an Application"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+A terminate will stop the existing application process that was started with a manifest Exec section. Then remove the application from the server.
+The following manifest sections will be processed in this order.
+<ol>
+<li>PreTerminate</li>
+<li>Terminate</li>
+<li>PostTerminate</li>
+</ol>
+For more information see:
+<ul>
+<li>[Distelli Manifest](doc:distelli-manifest) </li>
+<li>[Deployment Types](doc:deployment-types) </li>
+</ul>
+
+<h3><a name="terminate-an-application"></a>Terminate an Application</h3>
+
+Applications can be terminated by environment. To terminate an application:
+<ol>
+<li>Navigate to the environment that the application is to be terminated in. [Navigating to an Environment](doc:navigating-to-an-environment) </li>
+<li>At the top right click the <b>Terminate</b> icon.</li>
+</ol>
+
+<img src="/assets/images/drt.png">
+
+You will be presented with a Terminate dialog where you can adjust the stagger settings.
+<li>Click <b>Terminate</b>.</li>
+</ol>
+The application is being terminated on the servers in the environment. This will not remove the application files from the server.
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+terminating-an-ec2-instance.md terminating-an-ec2-instance.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Terminating an EC2 Instance"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+An EC2 server that has been provisioned by Distelli can be managed by Distelli. In particular you can:
+<ul>
+<li>[Provision EC2 Servers](doc:provisioning-ec2-servers) </li>
+<li>[Start an EC2 Instance](doc:starting-an-ec2-instance) </li>
+<li>[Stop an EC2 Instance](doc:stopping-an-ec2-instance) </li>
+<li>[Terminate an EC2 Instance](doc:terminating-an-ec2-instance) </li>
+<li>[Reboot an EC2 Instance](doc:rebooting-an-ec2-instance)</li>
+</ul>
+
+<h3><a name="terminate-an-ec2-instance"></a>Terminate an EC2 Instance</h3>
+
+You can terminate an EC2 instance. Terminate will completely destroy the EC2 instance.
+<ol>
+<li>Click <b>Servers</b> link from the to[p of the Distelli WebUI.</li>
+<li>Find the server you wish to terminate and click the server link.</li>
+</ol>
+This will take you to the server page.
+<li>Click the blue gear icon on the right.</li>
+<li>Click the <b>Terminate</b> button.</li>
+</ol>
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+terminating-an-environment.md terminating-an-environment.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Terminating an Environment"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+You can terminate application deployments to an environment.
+
+<h3><a name="terminate-an-environment"></a>Terminate an Environment</h3>
+
+See [Terminating an Application](doc:terminating-an-application-1)
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+types-of-notifications.md types-of-notifications.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Types of Notifications"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+Notifications in Distelli allow you to quickly know when manual and automated tasks occur. For information on setting up notifications see the associated creating notification document:
+<ul>
+<li>[Creating 'Build begins' Notification](doc:creating-build-begins-notification)</li>
+<li>[Creating 'Build completes' Notification](doc:creating-build-completes-notification)</li>
+<li>[Creating 'Deploy begins' Notification](doc:creating-deploy-begins-notification) </li>
+<li>[Creating 'Build completes' Notification](doc:creating-build-completes-notification) </li>
+</ul>
+
+<h3><a name="notification-types"></a>Notification Types</h3>
+
+[eMail](#email)
+[HipChat](#hipchat)
+[Slack](#slack)
+[Team](#team)
+
+<h3><a name="email"></a>eMail</h3>
+
+Email notifications send an email when the notification event occurs. You can setup multiple email notifications.
+
+<h3><a name="hipchat"></a>HipChat</h3>
+
+HipChat notifications send an instant message to a HipChat room when the notification event occurs. You can setup multiple HipChat notifications.
+See [Integrating with HipChat](doc:integrating-with-hipchat).
+
+<h3><a name="slack"></a>Slack</h3>
+
+Slack notifications send an instant message to a Slack Channel when the notification event occurs. You can setup multiple Slack notifications.
+See [Integrating with Slack](doc:integrating-with-slack).
+
+<h3><a name="team"></a>Team</h3>
+
+Team notifications sends an eMail to every member of the [Team](doc:using-a-team) when the notification event occurs. You can setup multiple team notifications.
+See [Using a Team](doc:using-a-team).
+using-a-team.md using-a-team.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Using a Team"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+You can change your current view to a team view so that you can interact what that teams account, including the teams; applications, environments, servers, and more.
+
+<h3><a name="access-a-team-you-are-a-member-of"></a>Access a Team you are a Member of</h3>
+
+
+{{% callout-warning %}}
+These steps assume you have been added to another Distelli users team.
+{{% /callout-warning %}}
+
+<li>On the top right, hover your mouse over the word <b>Owner</b>.</li>
+</ol>
+
+{{% callout-warning %}}
+If you are currently in a team view, the word Owner will be replaced by the <b>team name</b>. Hover over that.
+{{% /callout-warning %}}
+
+
+<img src="/assets/images/webui_hover_teamname.png">
+
+You now have access to the team account including that accounts; applications, environments, servers, and more.
+You are, in essence, signed into that teams account.
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+viewing-a-deployment.md viewing-a-deployment.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Viewing a Deployment"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+It is useful to be able to view a deployment in progress, especially the deploy logs. Or look at a deploy that has completed.
+
+<h3><a name="view-a-deployment"></a>View a Deployment</h3>
+
+To view an application deployment:
+<ol>
+<li>[Navigate to the Application](doc:navigating-to-an-application). </li>
+<li>Click the <b>Deployments</b> link.</li>
+<li>For the deployment you wish to view, click the deployment ID on the left.</li>
+</ol>
+
+<img src="/assets/images/webui_view_deployment.png">
+
+You are viewing a deployment.
+
+{{% callout-info %}}
+If you right click on the image above you can view/open it and see a larger more legible version.
+{{% /callout-info %}}
+
+{
+"type": "basic",
+"title": "Product Documentation"
+}
+[/block]
+[Product Documentation Index](doc:product-documentation-index)
+viewing-an-application.md viewing-an-application.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Viewing an Application"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+You can view an application and information related to an application from the application page.
+
+<h3><a name="view-an-application"></a>View an application</h3>
+
+To view an application, [Navigate to the application](doc:navigating-to-an-application).
+
+<img src="/assets/images/webui_viewing-an-application.png">
+
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+viewing-an-applications-repository.md viewing-an-applications-repository.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Viewing an Applications Repository"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+
+<h3><a name="view-an-applications-repository"></a>View an Applications Repository</h3>
+
+To view the repository integrated to a specific application in Distelli:
+<ol>
+<li>[Navigating to the Application](doc:navigating-to-an-application).</li>
+<li>Click the <b>Settings</b> link.</li>
+<li>Expand the <b>Repository</b> section.</li>
+<li>You will find the <b>Repository Settings</b> that will show what repository and branch(es) are integrated with this application.</li>
+</ol>
+For more help see [Connecting a Repository to an Application](doc:connecting-a-repository-to-an-application).
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+viewing-an-environments-deployments.md viewing-an-environments-deployments.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Viewing an Environments Deployments"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+Applications are deployed to environments. You can see information on the deployments made to a specific environment.
+
+<h3><a name="view-environment-deployments"></a>View Environment Deployments</h3>
+
+<ol>
+<li>In the Distelli WebUI [navigate to the environment](doc:navigating-to-an-environment).</li>
+<li>Click the <b>Deployments</b> link.</li>
+</ol>
+You you will find a list of deployments to the environment. This list will include:
+<ul>
+<li>Deployment ID</li>
+<li>Release deployed</li>
+<li>Status of deploy</li>
+<li>Who deployed</li>
+<li>When it was deployed</li>
+</ul>
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+viewing-application-deployments.md viewing-application-deployments.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Viewing Application Deployments"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+Application deployments can be viewed while in progress or after completion.
+Application deployments can be viewed in the Distelli WebUI or listed with the Distelli CLI.
+Viewing an application deployment via:
+<ul>
+<li>[Distelli WebUI](#view-an-application-deployment-with-distelli-webui)</li>
+<li>[Distelli CLI](#list-an-application-deployment-with-distelli-cli)</li>
+</ul>
+
+<h3><a name="view-an-application-deployment-with-distelli-webui"></a>View an Application Deployment with Distelli WebUI</h3>
+
+Viewing an application deployment in the Distelli WebUI will give you access to logs, including live logs for deployments currently in progress.
+To view your deployment:
+<ol>
+<li>[Navigate to the application](doc:navigating-to-an-application) you wish to see a deployment.</li>
+<li>Click the <b>Deployments</b> link.</li>
+<li>Find the deployment in the list and click the link for it on the left.</li>
+</ol>
+You are now viewing a deployment. For more information see [Viewing a Deployment](doc:viewing-a-deployment).
+
+<h3><a name="list-an-application-deployment-with-distelli-cli"></a>List an Application Deployment with Distelli CLI</h3>
+
+You can list deployments for a specific application with the Distelli CLI. The syntax is:
+
+{{< callout-code >}}
+distelli list deployments -n APPLICATION_NAME
+{{< /callout-code >}}
+
+
+{{< callout-code >}}
+$ distelli list deployments -n BashSimpleApp\n+---------------+------------------------+------------------------+------------------------------------------+-------------+\n| App Name | Deployment Id | Release Id | Deployed | Description |\n+---------------+------------------------+------------------------+------------------------------------------+-------------+\n| BashSimpleApp | d-338ifi5owr769793a9f1 | a-o3tyk6v71pd096f5e609 | 2015-05-08 20:57:43 UTC (3 months ago) | Test1 |\n| BashSimpleApp | d-y6d5z3wswq9b52c636f4 | a-q6qadg0zta455f189d0d | 2015-05-11 16:53:46 UTC (3 months ago) | Test2 |\n| BashSimpleApp | d-ba1k0e1ahldb648a548d | a-038hp3d0fvf90e86b823 | 2015-05-11 17:03:55 UTC (3 months ago) | Test3 |\n| BashSimpleApp | d-z9gyxktri772d5ba60f6 | a-e6qao45n5me8cfe5ae27 | 2015-05-29 23:07:22 UTC (2 months ago) | Test4 |\n| BashSimpleApp | d-k6qwo6lphmde9f364e5d | a-e6qao45n5me8cfe5ae27 | 2015-08-17 15:58:49 UTC (40 minutes ago) | |\n+---------------+------------------------+------------------------+------------------------------------------+-------------+\nbmcgehee@distelli-BM:~/Applications/BashSimpleApp$
+{{< /callout-code >}}
+
+{
+"type": "basic",
+"title": "Product Documentation"
+}
+[/block]
+[Product Documentation Index](doc:product-documentation-index)
+viewing-application-release.md viewing-application-release.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Viewing Application Release"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+viewing-a-server.md viewing-a-server.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Viewing a Server"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+There are several places you can view your server.
+<ul>
+<li>View servers in the Distelli WebUI.</li>
+<li>View server information with the Distelli CLI.</li>
+<li>View server information with the Distelli agent.</li>
+</ul>
+
+<h3><a name="view-servers-in-the-distelli-webui"></a>View Servers in the Distelli WebUI</h3>
+
+You can view your list of servers by simply clicking the <b>Servers</b> link at the top of the Distelli WebUI.
+
+<h3><a name="view-a-server-in-the-distelli-webui"></a>View a Server in the Distelli WebUI</h3>
+
+To view a single server, click on the server name in the list of servers.
+Below is an example server page.
+
+<img src="/assets/images/webui_single_server.png">
+
+
+<h3><a name="view-server-information-with-the-distelli-cli"></a>View Server Information with the Distelli CLI</h3>
+
+The following Distelli CLI command will list servers in a Distelli account.
+
+{{< callout-code >}}
+distelli list servers
+{{< /callout-code >}}
+
+
+<h3><a name="view-server-information-with-the-distelli-agent"></a>View Server Information with the Distelli agent</h3>
+
+The following Distelli agent commands will show server information.
+
+{{< callout-code >}}
+dagent status
+{{< /callout-code >}}
+
+
+{{< callout-code >}}
+dagent dump
+{{< /callout-code >}}
+
+viewing-builds.md viewing-builds.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Viewing Builds"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+You can view your builds from the builds list page. To navigate there click the <b>Builds</b> link at the top of the Distelli WebUI.
+
+<h3><a name="builds-list-page"></a>Builds List Page</h3>
+
+The builds list page provides a list of builds. This includes builds that are:
+<ul>
+<li>Queued</li>
+<li>In progress</li>
+<li>Successful</li>
+<li>Failed</li>
+</ul>
+The builds list page also provides navigation to many important links.
+
+<img src="/assets/images/webui_builds_list_page_popup.png">
+
+Each build panel contains links and information.
+
+<img src="/assets/images/webui_builds_list_specifics.png">
+
+
+<h3><a name="build-page"></a>Build Page</h3>
+
+Clicking on a build from the builds list page will take you to the build page. The build page has many similar links as the build panel in the build list page. Importantly on the build page is the build log which is helpful in troubleshooting failed builds.
+For more information on build logs see:
+[Downloading a Build Log](doc:downloading-a-build-log)
+[Linking to a Build Log Entry](doc:linking-to-a-build-log-entry)
+
+<h3><a name="product-documentaiton"></a>Product Documentaiton</h3>
+
+[Product Documentation Index](doc:product-documentation-index).
+viewing-my-team-membership.md viewing-my-team-membership.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Viewing my Team Membership"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+You can see your team mambership.
+
+<h3><a name="view-your-team-membership"></a>View your Team Membership</h3>
+
+<ol>
+<li>While signed in to the Distelli WebUI click the <b>gear icon</b> on the top right.</li>
+</ol>
+This will take you to your settings page.
+<li>Click the <b>Teams</b> link on the left.</li>
+</ol>
+This will take you to the teams page. Here you will find two lists. Teams you own and teams you are a member of.
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+viewing-release-details.md viewing-release-details.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Viewing Release Details"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+Release details include:
+<ul>
+<li>The release description.</li>
+<li>The release tags.</li>
+<li>Who created the release.</li>
+<li>When the release was created.</li>
+<li>The repository change id, if a repo is connected.</li>
+<li>The release package (bundle) name.</li>
+<li>The release package (bundle) storage.</li>
+</ul>
+
+<h3><a name="view-release-details"></a>View Release Details</h3>
+
+To view release details:
+<ol>
+<li>Navigate to the release you wish to see the release details [Navigating to a Release](doc:navigating-to-a-release).</li>
+</ol>
+You are now viewing the release details.
+
+<h3><a name="description"></a>Description</h3>
+
+This represents a user entered description. This can be specified in the WebUI and during the Distelli CLI push process, for example:
+
+{{< callout-code >}}
+distelli push -m \Enter Release Description Here\
+{{< /callout-code >}}
+
+
+<h3><a name="tags"></a>Tags</h3>
+
+You can have up to 3 tags per release. Release tags are searchable. See [Searching for Release Tag or Version](doc:searching-for-release-tag-or-version).
+A tag can be added by clicking on the little tag icon.
+Tags can be removed by clicking on the <b>X</b> on the tag.
+
+<h3><a name="created-by"></a>Created by</h3>
+
+This show what Distelli user is attributed to creating the release.
+
+<h3><a name="change-id"></a>Change Id</h3>
+
+This is the repository change id when you have integrated your application with your repository using the [Distelli Manifest CommitData Section](doc:distelli-manifest#commitdata).
+
+<h3><a name="package"></a>Package</h3>
+
+This is the bundled release file. For more information see [Distelli Bundle](doc:distelli-bundle-1).
+
+<h3><a name="package-storage"></a>Package Storage</h3>
+
+This shows the location the bundled release is kept. For more information see [Using Amazon S3 Bucket](doc:using-amazon-s3-bucket).
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
+viewing-release-notes.md viewing-release-notes.md.new
++++
+date = "2015-09-29T16:53:41-07:00"
+draft = true
+title = "Viewing Release Notes"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+You can view release notes in the Distelli WebUI.
+
+<h3><a name="view-release-notes"></a>View Release Notes</h3>
+
+To view the existing release notes for an existing release:
+<ol>
+<li>Navigate to the release that you wish to view release notes [Navigating to a Release](doc:navigating-to-a-release)</li>
+<li>From the release page click the <b>Notes</b> link.</li>
+</ol>
+You will find yourself at the Release Note page. Here you can view the notes.
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](doc:product-documentation-index)
