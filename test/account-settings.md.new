@@ -1,0 +1,82 @@
++++
+date = "2015-09-30T14:04:19-07:00"
+draft = true
+title = "Account Settings"
+leftnav = "leftnav-user-guide.html"
++++
+<br>
+
+<h3><a name="account-settings"></a>Account Settings</h3>
+
+To navigate to account settings:
+<ol>
+<li>Click on the <b>gear</b> icon in the top right of the Distelli WebUI.</li>
+</ol>
+Here you will find:
+[Billing & Plans](/user-guides/account-settings.html#billing--plans)
+[Credentials](/user-guides/account-settings.html#credentials)
+[API](/user-guides/account-settings.html#api)
+[Teams](/user-guides/account-settings.html#teams)
+[Integrations](/user-guides/account-settings.html#integrations)
+
+<h3><a name="billing-&-plans"></a>Billing & Plans</h3>
+
+Distelli offers several billing plans, including a <b>2 Server</b> free plan. When you are ready to upgrade you can do so from the Billing & Plans link.
+<ol>
+<li>Click <b>Billing & Plans</b>.</li>
+<li>Click the <b>Purchase</b> button for the number of servers you wish to deploy to.</li>
+
+{{% callout-info %}}
+For example, if you choose 50 servers this means you can deploy to 50 concurrent servers.
+{{% /callout-info %}}
+
+<li>Enter your credit card information.</li>
+<li>Click <b>Add Card</b>.</li>
+</ol>
+
+<h3><a name="credentials"></a>Credentials</h3>
+
+In the credentials section you have access to:
+<h2>Agent Credentials</h2>
+This is your Distelli accesss token and secret key. For usage, see [Distelli distelli.yml Usage](/user-guides/distelli-distelliyml-usage.html).
+<h2>AWS S3 (credentials)</h2>
+This is where you set your AWS S3 credentials. For usage, see [Using Amazon S3 Bucket](/user-guides/using-amazon-s3-bucket.html).
+<h2>AWS EC2 (credentials)</h2>
+This is where you set your EC2 credentials. For usage, see [Provisioning EC2 Servers](/user-guides/provisioning-ec2-servers.html).
+
+<h3><a name="api"></a>API</h3>
+
+This is where you create, activate, deactivate, and delete API tokens. For usage, see [Distelli API](/user-guides/distelli-api.html).
+
+<h3><a name="teams"></a>Teams</h3>
+
+In this section you can create, edit membership, and delete teams. You can also see what teams you are on. For more information see [Using an Organization Team Account](/user-guides/using-an-organization-team-account.html).
+
+<h3><a name="integrations"></a>Integrations</h3>
+
+<h2>Github</h2>
+Here you can connect your Github account to your Distelli account. This will allow you to create applications from Github repositories and attach existing applications to repositories. For more information see:
+<ul>
+<li>[Creating an Application from a Repository](/user-guides/creating-an-application-from-a-repository.html)</li>
+<li>[Connecting a Repository to an Application](doc:connecting-a-repository-to-an-application) </li>
+</ul>
+<h2>Bitbucket</h2>
+Here you can connect your Bitbucket account to your Distelli account. This will allow you to create applications from Bitbucket repositories and attach existing applications to repositories. For more information see:
+<ul>
+<li>[Creating an Application from a Repository](/user-guides/creating-an-application-from-a-repository.html)</li>
+<li>[Connecting a Repository to an Application](doc:connecting-a-repository-to-an-application) </li>
+</ul>
+<h2>Slack</h2>
+Here you can connect your Slack account to Distelli in preparation to have notifications sent to Slack rooms. For more information see:
+<ul>
+<li>[Notifications](/user-guides/notifications.html) </li>
+</ul>
+<h2>Hipchat</h2>
+Here you can connect your Hipchat account to Distelli in preparation to have notifications sent to Hipchat rooms. For more information see:
+<ul>
+<li>[Notifications](/user-guides/notifications.html) </li>
+</ul>
+
+<h3><a name="product-documentation"></a>Product Documentation</h3>
+
+[Product Documentation Index](/user-guides/product-documentation-index.html).

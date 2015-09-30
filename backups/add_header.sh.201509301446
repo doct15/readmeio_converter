@@ -12,15 +12,13 @@ function read_line {
 function replace_bold {
   line=$(sed "s/\s\*\*/ <b>/g" <<< "$line")
   line=$(sed 's/\*\*\s/<\/b> /g' <<< "$line") 
-  line=$(sed 's/\*\*$/<\/b>/g' <<< "$line")
   line=$(sed "s/\*\*\./<\/b>./g" <<< "$line") 
 }
 
 function replace_italic {
   line=$(sed "s/\s\*/ <i>/g" <<< "$line")
-  line=$(sed "/[a-zA-Z]+\*/s/\*\s/<\/i> /g" <<< "$line") 
-  line=$(sed 's/\*$/<\/i>/g' <<< "$line")
-  line=$(sed "s/[a-zA-Z]+\*\./<\/i>./g" <<< "$line") 
+  line=$(sed "/[a-zA-Z]\*/s/\*\s/<\/i> /g" <<< "$line") 
+  line=$(sed "s/\*\./<\/i>./g" <<< "$line") 
 }
 
 function replace_singletick {
@@ -29,7 +27,7 @@ function replace_singletick {
 
 function app_write {
   let app_written=$app_written+1
-  if [ $debug ]; then
+  if [ debug -eq 1 ]; then
     echo $1
   else
     echo $1 >> "$newfile"
@@ -37,40 +35,35 @@ function app_write {
 }
 
 function app_insert {
-  if [ $debug ]; then
+  if [ debug -eq 1 ]; then
     echo $1
   else
     echo $1 >> "$newfile"
   fi
 }
 
-function clean_code {
-  asdf="asdf"
-}
-
 leftnav="leftnav-user-guide.html"
-ext=".md"
+ext="new"
 headerdate=$(date +"%Y-%m-%dT%k:%M:%S-07:00")
 let app_written=0
 let ol_counter=0
 let ol_current=0
 let ol_top=0
 let ol_done=0
-#let debug=1
+let debug=0
 doc_replace="/user-guides/"
 image_prefix="/assets/images/"
 let ol_readahead=12
 
-for filename in *.orig ; do
-  htmlfile=$(sed 's/\.orig/\.html/g' <<< "$filename")
-  #newfile="$filename$ext"
-  newfile=$(sed 's/\.orig/\.md/g' <<< "$filename")
+for filename in *md; do
+  htmlfile=$(sed 's/\.md/\.html/g' <<< "$filename")
+  newfile="$filename$ext"
   old_IFS=$IFS
   IFS=$'\n'
   lines=($(cat "$filename"))
   IFS=$old_IFS
   title=${lines[1]:7}
-  if [ $debug ]; then
+  if [ debug -eq 1 ]; then
     echo "$filename $newfile $htmlfile"
     echo "+++" > "$newfile"
     echo "date = \"$headerdate\"" >> "$newfile"
@@ -90,7 +83,7 @@ for filename in *.orig ; do
     echo "<br>" >> "$newfile"
   fi
   linenumber=4
-  while (("$linenumber" <= "${#lines[@]}")); do
+  while [ $linenumber -lt ${#lines[@]} ]; do
     read_line
     
     # Check for [TITLE](doc:LINK)
@@ -221,24 +214,12 @@ for filename in *.orig ; do
       read_line
       line=$(sed 's/\"//g' <<< "${line:13}")
       line=$(sed 's/,$//g' <<< "$line")
-      #echo "BEFORE $line"
-      #echo "AFTER $line"
       app_insert ""
       app_insert "{{< callout-code >}}"
-      line=$(sed -E 's/\\n/ZZ/g' <<< "$line")
-      old_IFS=$IFS
-      IFS='ZZ'
-      codelines=($line)
-      IFS=$old_IFS
-      #app_write "$line"
-      let codenumber=0
-      while (("$codenumber" <= "${#codelines[@]}")); do
-        app_write "${codelines[$codenumber]}"
-        let codenumber=$codenumber+1
-      done
+      app_write "$line"
       app_insert "{{< /callout-code >}}"
       app_insert ""
-      let linenumber=linenumber+5
+      let linenumber=linenumber+6
     fi
     
     # Check for readme.io image block

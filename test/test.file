@@ -1,0 +1,12 @@
+BEFORE $ distelli list deployments -n BashSimpleApp\n+---------------+------------------------+------------------------+------------------------------------------+-------------+\n| App Name | Deployment Id | Release Id | Deployed | Description |\n+---------------+------------------------+------------------------+------------------------------------------+-------------+\n| BashSimpleApp | d-338ifi5owr769793a9f1 | a-o3tyk6v71pd096f5e609 | 2015-05-08 20:57:43 UTC (3 months ago) | Test1 |\n| BashSimpleApp | d-y6d5z3wswq9b52c636f4 | a-q6qadg0zta455f189d0d | 2015-05-11 16:53:46 UTC (3 months ago) | Test2 |\n| BashSimpleApp | d-ba1k0e1ahldb648a548d | a-038hp3d0fvf90e86b823 | 2015-05-11 17:03:55 UTC (3 months ago) | Test3 |\n| BashSimpleApp | d-z9gyxktri772d5ba60f6 | a-e6qao45n5me8cfe5ae27 | 2015-05-29 23:07:22 UTC (2 months ago) | Test4 |\n| BashSimpleApp | d-k6qwo6lphmde9f364e5d | a-e6qao45n5me8cfe5ae27 | 2015-08-17 15:58:49 UTC (40 minutes ago) | |\n+---------------+------------------------+------------------------+------------------------------------------+-------------+\nbmcgehee@distelli-BM:~/Applications/BashSimpleApp$
+AFTER $ distelli list deployments -n BashSimpleApp
++---------------+------------------------+------------------------+------------------------------------------+-------------+
+| App Name | Deployment Id | Release Id | Deployed | Description |
++---------------+------------------------+------------------------+------------------------------------------+-------------+
+| BashSimpleApp | d-338ifi5owr769793a9f1 | a-o3tyk6v71pd096f5e609 | 2015-05-08 20:57:43 UTC (3 months ago) | Test1 |
+| BashSimpleApp | d-y6d5z3wswq9b52c636f4 | a-q6qadg0zta455f189d0d | 2015-05-11 16:53:46 UTC (3 months ago) | Test2 |
+| BashSimpleApp | d-ba1k0e1ahldb648a548d | a-038hp3d0fvf90e86b823 | 2015-05-11 17:03:55 UTC (3 months ago) | Test3 |
+| BashSimpleApp | d-z9gyxktri772d5ba60f6 | a-e6qao45n5me8cfe5ae27 | 2015-05-29 23:07:22 UTC (2 months ago) | Test4 |
+| BashSimpleApp | d-k6qwo6lphmde9f364e5d | a-e6qao45n5me8cfe5ae27 | 2015-08-17 15:58:49 UTC (40 minutes ago) | |
++---------------+------------------------+------------------------+------------------------------------------+-------------+
+bmcgehee@distelli-BM:~/Applications/BashSimpleApp$
