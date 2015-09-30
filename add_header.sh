@@ -44,10 +44,6 @@ function app_insert {
   fi
 }
 
-function clean_code {
-  asdf="asdf"
-}
-
 leftnav="leftnav-user-guide.html"
 ext=".md"
 headerdate=$(date +"%Y-%m-%dT%k:%M:%S-07:00")
@@ -59,7 +55,7 @@ let ol_done=0
 #let debug=1
 doc_replace="/user-guides/"
 image_prefix="/assets/images/"
-let ol_readahead=12
+let ol_readahead=22
 
 for filename in *.orig ; do
   htmlfile=$(sed 's/\.orig/\.html/g' <<< "$filename")
@@ -170,22 +166,27 @@ for filename in *.orig ; do
     if [ "${line:0:5}" = "#####" ]; then
       line="<h5>${line:6}</h5>"
       app_write "$line"
+      app_write ""
     fi
     if [ "${line:0:4}" = "####" ]; then
       line="<h4>${line:5}</h4>"
       app_write "$line"
+      app_write ""
     fi
     if [ "${line:0:3}" = "###" ]; then
       line="<h3>${line:4}</h3>"
       app_write "$line"
+      app_write ""
     fi
     if [ "${line:0:2}" = "##" ]; then
       line="<h2>${line:3}</h2>"
       app_write "$line"
+      app_write ""
     fi
     if [ "${line:0:1}" = "#" ]; then
       line="<h1>${line:2}</h1>"
       app_write "$line"
+      app_write ""
     fi
     
     # Check for readme.io header
@@ -225,9 +226,9 @@ for filename in *.orig ; do
       #echo "AFTER $line"
       app_insert ""
       app_insert "{{< callout-code >}}"
-      line=$(sed -E 's/\\n/ZZ/g' <<< "$line")
+      line=$(sed -E 's/\\n/Z/g' <<< "$line")
       old_IFS=$IFS
-      IFS='ZZ'
+      IFS='Z'
       codelines=($line)
       IFS=$old_IFS
       #app_write "$line"

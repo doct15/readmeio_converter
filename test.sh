@@ -7,13 +7,13 @@ echo "BEFORE $code"
 #echo "BEFORE $code" > test.file
 #sanitize=$(sed -E 's/\\n/\n/g' <<< $code)
 
-code=$(sed -E 's/\\n/ZZ/g' <<< $code)
+code=$(sed -E 's/\\n/Z/g' <<< $code)
 
 echo "AFTER $code"
 #echo "AFTER $sanitize" >> test.file
 
 old_IFS=$IFS
-IFS='ZZ'
+IFS='Z'
 codelines=($code)
 IFS=$old_IFS
 
@@ -22,7 +22,6 @@ while (("$codenumber" <= "${#codelines[@]}")); do
   echo "$codenumber ${codelines[$codenumber]}"
   let codenumber=$codenumber+1
 done
-
 
 
 #lines[0]='1. Create the application in your Distelli account. [Creating an Application](doc:creating-an-application-1)'
