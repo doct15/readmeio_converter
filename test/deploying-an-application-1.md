@@ -15,9 +15,18 @@ The following manifest sections will be processed in this order.
 1. PreInstall
 2. PkgInclude or Install
 3. PostInstall
+
+Test Test Test
+
 4. PreStart
 5. Start or Exec
+
+Adding some in-between text to fool the script.
+
 6. PostStart
+
+1. Test2
+2. Test3
 
 For more information see:
 * [Distelli Manifest](doc:distelli-manifest) 

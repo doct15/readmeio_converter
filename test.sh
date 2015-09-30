@@ -1,11 +1,17 @@
 #!/bin/bash
 #
-test1="1. this is a test"
-test2="2. This is a test"
+test1="1."
+test2="10"
+let linenumber=$((test1))
+let readahead=$((test2))
 
-echo "${test1:0:1}  $test1"
+for ra in `seq "$linenumber" "${linenumber+$readahead}"`; do
+  echo "RA: $ra"
+done
 
-    if [[ ${test1:0:1} =~ [1-9] ]]; then
-      echo "  Yes!"
-    fi
+#echo "${test1:0:1}  $test1"
+#
+#    if [[ ${test1:0:1} =~ [1-9] ]]; then
+#      echo "  Yes!"
+#    fi
 

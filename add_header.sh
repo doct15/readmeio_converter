@@ -32,7 +32,7 @@ function replace_singletick {
 }
 
 function app_write {
-  app_written=1
+  let app_written=$app_written+1
   echo $1
 }
 
@@ -43,10 +43,14 @@ function app_insert {
 leftnav="leftnav-user-guide.html"
 ext=".new"
 headerdate=$(date +"%Y-%m-%dT%k:%M:%S-07:00")
-app_written=0
-ol_counter=0
+let app_written=0
+let ol_counter=0
+let ol_current=0
+let ol_top=0
+let ol_done=0
 doc_replace="/user-guides/"
 image_prefix="/assets/images/"
+ol_readahead=12
 
 #echo $headerdate
 for filename in *; do
@@ -93,13 +97,41 @@ for filename in *; do
     if [ "${line:0:3}" = "1. " ]; then
       app_insert "<ol>"
       ol_counter=1
+      ol_current=0
+      ol_top=0
+      ol_done=0
+      let top=linenumber+"$ol_readahead"
+      #echo "LR $linenumber $ol_readahead $top"
+      for ra in `seq "$linenumber" "$top"`; do
+        ol_line=${lines[$ra]}
+        if [ ${#ol_line} -gt 2 ]; then
+          ol_current=$(sed "s/\.//g" <<< ${ol_line:0:2})
+          if [[ $ol_current =~ [1-9] ]]; then
+            #echo "OL_cur_count_top_done $ol_current $ol_counter $ol_top $ol_done"
+            if [ $ol_current -gt $ol_counter ]; then
+              let ol_counter=ol_current
+            elif [ $ol_current -lt $ol_counter ]; then
+              let ol_done=ol_counter            
+            fi
+          fi
+        fi
+      done
+      if [ $ol_done -gt 0 ]; then
+        let ol_top=ol_done
+      else
+        let ol_top=ol_counter
+      fi
+      ol_counter=1
+      #echo "OL_top_done_count_cur $ol_top $ol_done $ol_counter $ol_current"
     fi
     if [[ ${line:0:1} =~ [1-9] ]]; then
       app_write "  <li>${line:3}</li>"
-      let ol_counter=olcounter+1
-    elif [[ ol_counter -gt 0 ]]; then
-      app_insert "</ol>"
-      ol_counter=0
+      let ol_counter=ol_counter+1
+      if [ $ol_counter -gt $ol_top ]; then
+    #elif [[ ol_counter -gt 0 ]]; then
+        app_insert "</ol>"
+        ol_counter=0
+      fi
     fi
     if [ "${line:0:5}" = "#####" ]; then
       line="<h5>${line:6}</h5>"
@@ -171,9 +203,10 @@ for filename in *; do
       let linenumber=linenumber+15
     fi
     if [[ $line == *"](doc:"* ]]; then
-      echo "HERE"
-      line=$(sed -e "s/\]\(doc:/\]\($doc_replace/g" <<< "$line")
-      app_write "$line"
+      #echo "HERE"
+      #line=$(sed -e "s/\]\(doc:/\]\($doc_replace/g" <<< "$line")
+      #app_write "$line"
+      test="test"
     fi
     #echo "app_written is:$app_written"
     if [ $app_written -lt 1 ]; then
