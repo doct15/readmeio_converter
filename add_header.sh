@@ -145,6 +145,9 @@ for filename in *.orig ; do
     fi
 
     # Check for bullets
+    if [[ ${line:0:3} =~ ^[\s]*- ]]; then
+      line=$(sed 's/^[\s]*-/\* /g' <<<$line)
+    fi
     if [ "${line:0:2}" = "* " ]; then
       app_insert "<ul>"
       while [ "${line:0:2}" = "* " ]; do
