@@ -14,13 +14,15 @@ function replace_bold {
   line=$(sed 's/\*\*\s/<\/b> /g' <<< "$line") 
   line=$(sed 's/\*\*$/<\/b>/g' <<< "$line")
   line=$(sed "s/\*\*\./<\/b>./g" <<< "$line") 
+  line=$(sed "s/\*\*\]/<\/b>]/g" <<< "$line") 
 }
 
 function replace_italic {
   line=$(sed "s/\s\*/ <i>/g" <<< "$line")
-  line=$(sed "/[a-zA-Z]+\*/s/\*\s/<\/i> /g" <<< "$line") 
+  line=$(sed "s/[a-zA-Z]+\*\s/<\/i> /g" <<< "$line") 
   line=$(sed 's/\*$/<\/i>/g' <<< "$line")
-  line=$(sed "s/[a-zA-Z]+\*\./<\/i>./g" <<< "$line") 
+  line=$(sed -re "s|([a-zA-Z]+)\*\.|\1</i>.|g" <<< "$line") 
+  line=$(sed -re "s|([a-zA-Z]+)\*\s|\1</i> |g" <<< "$line") 
 }
 
 function replace_singletick {
@@ -44,7 +46,8 @@ function app_insert {
   fi
 }
 
-leftnav="leftnav-user-guide.html"
+doc_replace="/tutorials/"
+leftnav="leftnav-tutorials.html"
 ext=".md"
 headerdate=$(date +"%Y-%m-%dT%k:%M:%S-07:00")
 let app_written=0
@@ -52,10 +55,14 @@ let ol_counter=0
 let ol_current=0
 let ol_top=0
 let ol_done=0
+let ul_counter=0
+let ul_current=0
+let ul_top=0
+let ul_done=0
 #let debug=1
-doc_replace="/user-guides/"
 image_prefix="/assets/images/"
-let ol_readahead=22
+let ol_readahead=34
+let ul_readahead=15
 
 for filename in *.orig ; do
   htmlfile=$(sed 's/\.orig/\.html/g' <<< "$filename")
@@ -98,10 +105,12 @@ for filename in *.orig ; do
     # Check for [TITLE](#ANCHOR)
     if [[ $line == *"](#"* ]]; then
       line=$(sed "s|(#|($doc_replace$htmlfile#|g" <<< "$line")
-    elif [[ $line =~ [a-zA-Z]# ]]; then
-      line=$(sed "s/.html//g" <<< "$line")
+    elif [[ $line =~ [a-zA-Z]*# ]]; then
+      line=$(sed "s/.html)/)/g" <<< "$line")
+      #line=$(sed -re "s|(\([a-zA-Z\s]*)#|\1\.html#|g" <<< "$line")
+      line=$(sed -re "s|([a-zA-Z]+)#|\1\.html#|g" <<< "$line")
     fi
-    #if [[ $line != *".html#"* ]]; then
+     #if [[ $line != *".html#"* ]]; then
     #  line=$(sed "s/#/.html#/g" <<<$line)
     #fi
 
@@ -137,6 +146,7 @@ for filename in *.orig ; do
     # Check for ">1" in ordered list
     if [[ ${line:0:1} =~ [1-9] ]]; then
       app_write "  <li>${line:3}</li>"
+      app_insert ""
       let ol_counter=ol_counter+1
       if [ $ol_counter -gt $ol_top ]; then
         app_insert "</ol>"
@@ -145,24 +155,44 @@ for filename in *.orig ; do
     fi
 
     # Check for bullets
-    if [[ ${line:0:3} =~ ^[\s]*- ]]; then
-      line=$(sed 's/^[\s]*-/\* /g' <<<$line)
+    if [ "${line:0:5}" == "   - " ] || [ "${line:0:4}" == "  - " ] || [ "${line:0:3}" == " - " ] || [ "${line:0:2}" == "- " ] || [ "${line:0:2}" == " -" ]; then
+      #echo "TRUE"
+      #line=$(sed -e 's/\s+-/\*/g' <<<$line)
+      line=$(sed -e 's/^\s*-/\*/g' <<<$line)
     fi
     if [ "${line:0:2}" = "* " ]; then
-      app_insert "<ul>"
-      while [ "${line:0:2}" = "* " ]; do
-        app_write "  <li>${line:2}</li>"
-        read_line
-        if [ "${line:0:3}" = " - " ]; then
-          app_insert "  <ul>"
-          while [ "${line:0:3}" = " - " ]; do
-            app_write "    <li>${line:3}</li>"
-            read_line
-          done
-          app_insert "  </ul>"
+      if [ "$ul_counter" -eq 0 ]; then
+        app_insert "<ul>"
+        ul_counter=1
+        ul_current=0
+        ul_top=0
+        ul_done=0
+ 
+        let top=linenumber+"$ul_readahead"
+        for ra in `seq "$linenumber" "$top"`; do
+          ul_line=${lines[$ra]}
+          ul_current=${ul_line:0:2}
+          if [[ "$ul_current" == "* " ]]; then
+            let ul_counter=ul_counter+1
+          elif [ "$ul_done" -eq 0 ]; then
+            let ul_done=ul_counter            
+          fi
+        done
+        if [ $ul_done -gt 0 ]; then
+          let ul_top=ul_done
+        else
+          let ul_top=ul_counter
         fi
-      done
-      app_insert "</ul>"
+        ul_counter=1
+      fi
+      #echo "LINE $line"
+      app_write "    <li>${line:2}</li>"
+      app_insert ""
+      let ul_counter=ul_counter+1
+      if [ $ul_counter -gt $ul_top ]; then
+        app_insert "</ul>"
+        ul_counter=0
+      fi
     fi
     
     # Check for H1-5 headers
