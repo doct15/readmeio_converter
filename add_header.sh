@@ -46,8 +46,8 @@ function app_insert {
   fi
 }
 
-doc_replace="/tutorials/"
-leftnav="leftnav-tutorials.html"
+doc_replace="/user-guides/"
+leftnav="leftnav-user-guide.html"
 ext=".md"
 headerdate=$(date +"%Y-%m-%dT%k:%M:%S-07:00")
 let app_written=0
